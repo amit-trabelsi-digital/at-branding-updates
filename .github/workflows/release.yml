@@ -1,0 +1,114 @@
+name: Create Release
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+    paths-ignore:
+      - '.github/**'
+      - 'README.md'
+      - 'plugin-info*.json'
+      - 'at-branding.php'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Get Version
+        id: get_version
+        run: |
+          BASE_VERSION=$(grep -Po "(?<=Version: ).*" at-branding.template.php)
+          BRANCH=${GITHUB_REF##*/}
+          if [ "$BRANCH" = "develop" ]; then
+            VERSION="$BASE_VERSION-dev"
+            SUFFIX="-dev"
+            NAME_SUFFIX=" (Development)"
+            CHANNEL="dev"
+            INFO_FILE="plugin-info-dev.json"
+            UPDATE_URI="https://raw.githubusercontent.com/amit-trabelsi-digital/at-branding-wp-plugin/develop/plugin-info-dev.json"
+          else
+            VERSION="$BASE_VERSION"
+            SUFFIX=""
+            NAME_SUFFIX=""
+            CHANNEL="stable"
+            INFO_FILE="plugin-info.json"
+            UPDATE_URI="https://raw.githubusercontent.com/amit-trabelsi-digital/at-branding-wp-plugin/main/plugin-info.json"
+          fi
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "base_version=$BASE_VERSION" >> $GITHUB_OUTPUT
+          echo "branch=$BRANCH" >> $GITHUB_OUTPUT
+          echo "suffix=$SUFFIX" >> $GITHUB_OUTPUT
+          echo "name_suffix=$NAME_SUFFIX" >> $GITHUB_OUTPUT
+          echo "channel=$CHANNEL" >> $GITHUB_OUTPUT
+          echo "info_file=$INFO_FILE" >> $GITHUB_OUTPUT
+          echo "update_uri=$UPDATE_URI" >> $GITHUB_OUTPUT
+
+      - name: Generate Plugin Files
+        run: |
+          VERSION="${{ steps.get_version.outputs.version }}"
+          UPDATE_URI="${{ steps.get_version.outputs.update_uri }}"
+          
+          # יצירת הקובץ הראשי של הפלאגין מתבנית
+          sed -e "s|{{VERSION}}|$VERSION|g" \
+              -e "s|{{UPDATE_URI}}|$UPDATE_URI|g" \
+              at-branding.template.php > at-branding.php
+
+      - name: Create ZIP files
+        run: |
+          BRANCH=${{ steps.get_version.outputs.branch }}
+          # יצירת ZIP רגיל
+          zip -r at-branding.zip ./* -x ".git/*" ".github/*" ".gitignore" ".DS_Store" "plugin-info*.json" "*.template.*"
+          # אם זה ברנץ' פיתוח, ניצור גם ZIP לפיתוח
+          if [ "$BRANCH" = "develop" ]; then
+            cp at-branding.zip at-branding-dev.zip
+          fi
+
+      - name: Generate Plugin Info
+        run: |
+          VERSION=${{ steps.get_version.outputs.version }}
+          SUFFIX=${{ steps.get_version.outputs.suffix }}
+          NAME_SUFFIX=${{ steps.get_version.outputs.name_suffix }}
+          CHANNEL=${{ steps.get_version.outputs.channel }}
+          INFO_FILE=${{ steps.get_version.outputs.info_file }}
+          
+          # יצירת קובץ ה-JSON
+          echo '{
+            "at-branding/at-branding.php": {
+                "version": "'$VERSION'",
+                "package": "https://github.com/amit-trabelsi-digital/at-branding-wp-plugin/releases/latest/download/at-branding'$SUFFIX'.zip",
+                "name": "AT - Custom Branding'$NAME_SUFFIX'",
+                "slug": "at-branding",
+                "author": "Amit Trabelsi",
+                "requires": "5.0",
+                "tested": "6.4",
+                "channel": "'$CHANNEL'"
+            }
+          }' > "$INFO_FILE"
+
+      - name: Commit Changes
+        run: |
+          VERSION=${{ steps.get_version.outputs.version }}
+          INFO_FILE=${{ steps.get_version.outputs.info_file }}
+          
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add "$INFO_FILE" at-branding.php
+          git commit -m "Update plugin version to $VERSION and Update URI"
+          git push
+
+      - name: Create Release
+        id: create_release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: v${{ steps.get_version.outputs.version }}
+          name: Release v${{ steps.get_version.outputs.version }}
+          files: |
+            at-branding.zip
+            at-branding-dev.zip
+          draft: false
+          prerelease: ${{ steps.get_version.outputs.branch == 'develop' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 

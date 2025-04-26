@@ -1,0 +1,4 @@
+.DS_Store
+plugin-info*.json
+!plugin-info.template.json
+at-branding.php
