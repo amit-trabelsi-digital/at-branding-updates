@@ -1,0 +1,12 @@
+{
+    "at-branding/at-branding.php": {
+        "version": "{{VERSION}}",
+        "package": "https://github.com/amit-trabelsi-digital/at-branding-wp-plugin/releases/latest/download/at-branding{{SUFFIX}}.zip",
+        "name": "AT - Custom Branding{{NAME_SUFFIX}}",
+        "slug": "at-branding",
+        "author": "Amit Trabelsi",
+        "requires": "5.0",
+        "tested": "6.4",
+        "channel": "{{CHANNEL}}"
+    }
+} 
