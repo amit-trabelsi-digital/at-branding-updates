@@ -97,7 +97,8 @@ jobs:
           git config --global user.email 'action@github.com'
           git add "$INFO_FILE" at-branding.php
           git commit -m "Update plugin version to $VERSION and Update URI"
-          git push
+          git pull --rebase origin ${{ steps.get_version.outputs.branch }} || true
+          git push -f origin ${{ steps.get_version.outputs.branch }}
 
       - name: Create Release
         id: create_release
