@@ -1,0 +1,23 @@
+{
+  "name": "il-bank-api",
+  "version": "1.0.0",
+  "description": "REST API wrapper for israeli-bank-scrapers",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "israeli-bank-scrapers-core": "^5.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
