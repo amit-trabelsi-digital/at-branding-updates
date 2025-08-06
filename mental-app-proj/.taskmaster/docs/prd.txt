@@ -1,0 +1,71 @@
+<context>
+# Overview
+The Mental Coach Platform is a comprehensive digital solution designed to provide mental coaching and support to users through a mobile application. The platform aims to help users improve their mental resilience, focus, and overall well-being by offering structured courses, personalized exercises, and direct communication with a virtual coach.
+
+The project is divided into three main components: a Flutter-based mobile application for end-users, a React-based admin dashboard for content and user management, and a Node.js backend API that serves both clients.
+
+**Current Status:** The project is already in active development with significant progress made across all three components. This PRD focuses on identifying remaining tasks and improvements needed to complete the platform.
+
+# Core Features
+*   **Mobile App (`mental-coach-flutter`):** The primary interface for users. It provides access to training programs, lessons, exercises, goal tracking, and messages from the coach. The app includes a main dashboard screen for users to view their progress, available courses, and quick access to features. **Status:** Core functionality implemented, ready for production deployment.
+*   **Admin Dashboard (`mental-coach-admin`):** A web-based portal for administrators to manage all aspects of the platform. This includes user management, content creation (courses, lessons), viewing statistics, and sending push notifications. This is separate from the user-facing mobile app dashboard. **Status:** Basic structure implemented, needs completion of management interfaces.
+*   **Backend API (`mental-coach-api`):** The central nervous system of the platform. It handles all business logic, data storage, user authentication, and communication between the mobile app and the admin dashboard. **Status:** Core API endpoints implemented, database integration complete.
+
+# User Experience
+The primary user is an individual seeking to improve their mental skills. The user journey begins with onboarding through the mobile app, followed by engaging with training programs, completing exercises, and tracking their progress. The experience should be intuitive, supportive, and engaging, with a clean and right-to-left (RTL) aligned interface for Hebrew-speaking users.
+</context>
+<PRD>
+# Technical Architecture
+*   **`mental-coach-flutter` (Mobile App):** A cross-platform application built with Flutter. It communicates with the backend via a REST API for all data and authentication needs. It handles local state and user session management. **Current:** Core screens implemented, authentication working, ready for production deployment.
+*   **`mental-coach-admin` (React Admin Dashboard):** A single-page application (SPA) built with React and TypeScript. It uses Material-UI for components and communicates with the backend via a REST API. It's responsible for providing a rich interface for data management and platform administration. **Current:** Basic structure and authentication implemented, management interfaces need completion.
+*   **`mental-coach-api` (Backend):** A Node.js application using Express.js. It connects to a MongoDB database for data persistence and Firebase for authentication. It exposes a secure RESTful API for the mobile and admin clients, handling user authentication, data validation, and business logic. **Current:** Core API endpoints implemented, database models defined, authentication working.
+
+# Development Roadmap
+## Phase 1: Complete Existing Features (Current Priority)
+1.  **Admin Dashboard Completion:**
+    *   Complete all management interfaces (Users, Courses, Lessons, Exercises)
+    *   Implement proper error handling and user feedback
+    *   Add data validation and form controls
+    *   Implement file upload functionality for media content
+2.  **Mobile App Production Deployment:**
+    *   Finalize Android App Bundle (AAB) for Google Play Store
+    *   Create iOS App Store Package (IPA)
+    *   Complete app store listings and metadata
+    *   Implement production environment configuration
+3.  **Backend API Enhancements:**
+    *   Add missing API endpoints for admin dashboard
+    *   Implement proper error handling and logging
+    *   Add data validation and security measures
+    *   Optimize database queries and performance
+
+## Phase 2: Advanced Features
+1.  **Enhanced User Experience:**
+    *   Implement push notifications for mobile app
+    *   Add analytics and reporting dashboard
+    *   Implement advanced goal tracking features
+    *   Add social features and user interactions
+2.  **Admin Dashboard Advanced Features:**
+    *   Add comprehensive analytics dashboard
+    *   Implement user activity monitoring
+    *   Add content management tools
+    *   Implement automated reporting
+
+# Logical Dependency Chain
+1.  **Complete Admin Dashboard** - This is the highest priority as it's needed for content management
+2.  **Deploy Mobile App** - Can be done in parallel with admin completion
+3.  **Enhance Backend API** - Add missing endpoints and optimizations
+4.  **Advanced Features** - Implement additional functionality once core features are stable
+
+# Risks and Mitigations
+*   **Data Synchronization:** Ensuring data consistency between the mobile app, admin panel, and the database is critical.
+    *   **Mitigation:** Implement a clear and versioned API. Use robust error handling and potentially a state management solution on the clients to manage data fetching and caching.
+*   **Production Deployment:** The mobile app is ready for deployment but needs final configuration.
+    *   **Mitigation:** Complete app store preparation, test thoroughly on multiple devices, and implement proper environment configuration.
+*   **Admin Dashboard Completion:** The admin interface needs completion to enable proper content management.
+    *   **Mitigation:** Focus on completing core management interfaces first, then add advanced features.
+
+# Appendix
+*   **Internationalization (i18n):** The user-facing application should be built with internationalization in mind, managing all strings in a centralized location to support future languages, starting with Hebrew.
+*   **UI/UX:** The user interface must be modern, interactive, and include animations to enhance user engagement. For the Hebrew language, all UI elements must be right-to-left (RTL) aligned.
+*   **Current Progress:** The project has significant progress with core functionality implemented across all components. Focus should be on completing existing features rather than starting from scratch.
+</PRD> 

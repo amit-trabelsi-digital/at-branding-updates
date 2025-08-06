@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Bash(git checkout:*)",
+      "Bash(git commit:*)",
+      "Bash(git add:*)",
+      "Bash(sed:*)",
+      "Bash(npm run build:*)",
+      "Bash(git push:*)",
+      "Bash(cat:*)",
+      "Bash(find:*)",
+      "Bash(ls:*)",
+      "mcp__ide__getDiagnostics",
+      "Bash(flutter build:*)",
+      "Bash(flutter analyze:*)",
+      "Bash(grep:*)",
+      "Bash(cp:*)",
+      "Bash(xcrun simctl list:*)",
+      "Bash(flutter:*)",
+      "Bash(railway login:*)"
+    ],
+    "deny": []
+  }
+}
