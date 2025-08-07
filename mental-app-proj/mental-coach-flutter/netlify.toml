@@ -1,0 +1,73 @@
+# Netlify deployment configuration for Mental Coach Flutter Web
+
+[build]
+  # Base directory for the build
+  base = "mental-coach-flutter"
+  
+  # Build command
+  command = "flutter build web --release"
+  
+  # Directory to deploy (relative to base)
+  publish = "build/web"
+  
+  # Build environment variables
+  environment = { FLUTTER_VERSION = "3.19.0" }
+
+[build.environment]
+  # Flutter SDK
+  FLUTTER_VERSION = "3.19.0"
+  FLUTTER_CHANNEL = "stable"
+  
+  # Dart SDK (comes with Flutter)
+  DART_VERSION = "3.3.0"
+
+# Headers for proper serving
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# CORS headers for API calls
+[[headers]]
+  for = "/api/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, POST, PUT, DELETE, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type, Authorization"
+
+# Redirect rules for SPA
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Cache control for assets
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Install Flutter before building
+[build.processing]
+  skip_processing = false
+
+# Build plugins
+[[plugins]]
+  package = "@netlify/plugin-lighthouse"
+  
+  [plugins.inputs]
+    # Lighthouse performance audit
+    output_path = "reports/lighthouse.html"

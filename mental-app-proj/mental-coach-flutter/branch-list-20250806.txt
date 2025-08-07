@@ -1,0 +1,27 @@
+  dev-v0.5
+  feature/dashboard-profile-updates
+  fix-10-04
+  fix-new-app-name
+  ios-distribution
+  ios_v1
+  main
+  pre-qa-v1
+  sms+web-conn
+  static-deployment
+* temp-pre-cleanup-20250806
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/add-claude-github-actions-1751382935022
+  remotes/origin/add-claude-github-actions-1751382935027
+  remotes/origin/dev-v0.5
+  remotes/origin/feature/dashboard-profile-updates
+  remotes/origin/fix-10-04
+  remotes/origin/fix-new-app-name
+  remotes/origin/ios-distribution
+  remotes/origin/ios_v1
+  remotes/origin/main
+  remotes/origin/pre-qa-v1
+  remotes/origin/production
+  remotes/origin/sms+web-conn
+  remotes/origin/static-deployment
+  remotes/origin/temp-pre-cleanup-20250806
+  remotes/origin/test

@@ -1,0 +1,70 @@
+{
+  "project_info": {
+    "project_number": "922833932086",
+    "project_id": "mental-coach-c7f94",
+    "storage_bucket": "mental-coach-c7f94.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922833932086:android:f5757fc95b74ca60cfed97",
+        "android_client_info": {
+          "package_name": "mentalcoach.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922833932086-01its621967iqie5arkfuso31b705dpd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mentalcoach.app",
+            "certificate_hash": "421cbda355bca06bacd5d0d0c5bed3cf0a96b893"
+          }
+        },
+        {
+          "client_id": "922833932086-fhg20ipk095ud13t3d39h52tq978se7a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mentalcoach.app",
+            "certificate_hash": "0b167dd82fc0d189860c017fec949997c1a210a9"
+          }
+        },
+        {
+          "client_id": "922833932086-tkkdhgpn3vh7sb9vjnispdfib1o6shub.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mentalcoach.app",
+            "certificate_hash": "f46b2612e9d906ae3687afd579084c7cc31d4535"
+          }
+        },
+        {
+          "client_id": "922833932086-nej9obet7pb8ubgrcqqhkueu9o9n5m19.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJWawjlgAJgnY3EUpzyYONRz_xcBIFwfU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922833932086-nej9obet7pb8ubgrcqqhkueu9o9n5m19.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "922833932086-6c678rfhovn21taj03o1nda58lt8d787.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "mental-bck-dev-8a9d288b0920.herokuapp.com"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

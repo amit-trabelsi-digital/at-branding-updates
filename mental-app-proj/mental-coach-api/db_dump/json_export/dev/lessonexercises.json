@@ -1,0 +1,448 @@
+[{
+	"_id": {
+		"$oid": "6863d54a020e131bf1185582"
+	},
+	"lessonId": {
+		"$oid": "6863d54a020e131bf1185577"
+	},
+	"exerciseId": "exercise_1",
+	"type": "questionnaire",
+	"title": "בחן את הידע שלך - אימון מנטלי",
+	"description": "ענה על השאלות הבאות כדי לבדוק את הבנתך",
+	"instructions": "השלם את התרגיל בקצב שלך. קח את הזמן לחשוב על התשובות.",
+	"settings": {
+		"order": 1,
+		"mandatory": true,
+		"points": 50,
+		"timeLimit": 600,
+		"allowRetake": true,
+		"showCorrectAnswers": true
+	},
+	"content": {
+		"questions": [
+			{
+				"questionId": "q1",
+				"questionText": "מהו אימון מנטלי בהקשר של כדורגל?",
+				"questionType": "single_choice",
+				"options": [
+					{
+						"optionId": "a",
+						"text": "אימון פיזי אינטנסיבי",
+						"isCorrect": false
+					},
+					{
+						"optionId": "b",
+						"text": "פיתוח כישורים נפשיים ומנטליים",
+						"isCorrect": true
+					},
+					{
+						"optionId": "c",
+						"text": "לימוד טקטיקה בלבד",
+						"isCorrect": false
+					},
+					{
+						"optionId": "d",
+						"text": "צפייה במשחקים",
+						"isCorrect": false
+					}
+				],
+				"points": 20,
+				"required": true
+			},
+			{
+				"questionId": "q2",
+				"questionText": "אילו יתרונות יש לאימון מנטלי?",
+				"questionType": "multiple_choice",
+				"options": [
+					{
+						"optionId": "a",
+						"text": "שיפור הביצועים בלחץ",
+						"isCorrect": true
+					},
+					{
+						"optionId": "b",
+						"text": "הגברת הביטחון העצמי",
+						"isCorrect": true
+					},
+					{
+						"optionId": "c",
+						"text": "שיפור מהירות הריצה",
+						"isCorrect": false
+					},
+					{
+						"optionId": "d",
+						"text": "שיפור הריכוז",
+						"isCorrect": true
+					}
+				],
+				"points": 30,
+				"required": true
+			}
+		]
+	},
+	"createdBy": {
+		"$oid": "67dc0618e3fc076b756177f8"
+	},
+	"lastModifiedBy": {
+		"$oid": "67dc0618e3fc076b756177f8"
+	},
+	"createdAt": {
+		"$date": "2025-07-01T12:32:10.961Z"
+	},
+	"updatedAt": {
+		"$date": "2025-07-01T12:32:10.961Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6863d54b020e131bf1185584"
+	},
+	"lessonId": {
+		"$oid": "6863d54a020e131bf1185579"
+	},
+	"exerciseId": "exercise_2",
+	"type": "text_input",
+	"title": "זיהוי מצבי לחץ אישיים",
+	"description": "תאר מצבים בהם אתה חש לחץ במשחק",
+	"instructions": "השלם את התרגיל בקצב שלך. קח את הזמן לחשוב על התשובות.",
+	"settings": {
+		"order": 2,
+		"mandatory": false,
+		"points": 50,
+		"timeLimit": null,
+		"allowRetake": true,
+		"showCorrectAnswers": false
+	},
+	"content": {
+		"prompts": [
+			{
+				"promptId": "p1",
+				"text": "תאר מצב במשחק האחרון שבו הרגשת לחץ. מה גרם ללחץ?",
+				"maxLength": 500,
+				"required": true
+			},
+			{
+				"promptId": "p2",
+				"text": "איך הלחץ השפיע על הביצועים שלך?",
+				"maxLength": 300,
+				"required": true
+			},
+			{
+				"promptId": "p3",
+				"text": "מה היית עושה אחרת כדי להתמודד עם הלחץ?",
+				"maxLength": 400,
+				"required": false
+			}
+		]
+	},
+	"createdBy": {
+		"$oid": "67dc0618e3fc076b756177f8"
+	},
+	"lastModifiedBy": {
+		"$oid": "67dc0618e3fc076b756177f8"
+	},
+	"createdAt": {
+		"$date": "2025-07-01T12:32:11.111Z"
+	},
+	"updatedAt": {
+		"$date": "2025-07-01T12:32:11.111Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6863d54b020e131bf1185586"
+	},
+	"lessonId": {
+		"$oid": "6863d54a020e131bf1185579"
+	},
+	"exerciseId": "exercise_3",
+	"type": "action_plan",
+	"title": "תוכנית אישית לניהול לחץ",
+	"description": "בנה תוכנית אישית להתמודדות עם לחץ",
+	"instructions": "השלם את התרגיל בקצב שלך. קח את הזמן לחשוב על התשובות.",
+	"settings": {
+		"order": 3,
+		"mandatory": false,
+		"points": 50,
+		"timeLimit": null,
+		"allowRetake": true,
+		"showCorrectAnswers": false
+	},
+	"content": {
+		"sections": [
+			{
+				"sectionId": "triggers",
+				"title": "זיהוי טריגרים ללחץ",
+				"prompts": [
+					"רשום 3 מצבים שגורמים לך ללחץ במשחק",
+					"מה הסימנים הפיזיים שאתה חש בלחץ?"
+				]
+			},
+			{
+				"sectionId": "techniques",
+				"title": "טכניקות התמודדות",
+				"prompts": [
+					"בחר 2 טכניקות נשימה שתתרגל",
+					"מתי תתרגל אותן?"
+				]
+			}
+		]
+	},
+	"createdBy": {
+		"$oid": "67dc0618e3fc076b756177f8"
+	},
+	"lastModifiedBy": {
+		"$oid": "67dc0618e3fc076b756177f8"
+	},
+	"createdAt": {
+		"$date": "2025-07-01T12:32:11.261Z"
+	},
+	"updatedAt": {
+		"$date": "2025-07-01T12:32:11.261Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6863d54b020e131bf1185588"
+	},
+	"lessonId": {
+		"$oid": "6863d54a020e131bf118557b"
+	},
+	"exerciseId": "exercise_4",
+	"type": "video_reflection",
+	"title": "ניתוח ביצועים אישיים",
+	"description": "צפה בסרטון של עצמך משחק ונתח את הביצועים",
+	"instructions": "השלם את התרגיל בקצב שלך. קח את הזמן לחשוב על התשובות.",
+	"settings": {
+		"order": 4,
+		"mandatory": false,
+		"points": 50,
+		"timeLimit": null,
+		"allowRetake": true,
+		"showCorrectAnswers": false
+	},
+	"content": {
+		"videoUrl": "https://example.com/upload-your-video",
+		"questions": [
+			{
+				"questionId": "vq1",
+				"text": "מה היו הרגעים החזקים שלך במשחק?",
+				"type": "text"
+			},
+			{
+				"questionId": "vq2",
+				"text": "באילו רגעים הפגנת ביטחון עצמי?",
+				"type": "text"
+			},
+			{
+				"questionId": "vq3",
+				"text": "מה תעשה כדי לחזק את הביטחון העצמי שלך?",
+				"type": "text"
+			}
+		],
+		"allowVideoUpload": true
+	},
+	"createdBy": {
+		"$oid": "67dc0618e3fc076b756177f8"
+	},
+	"lastModifiedBy": {
+		"$oid": "67dc0618e3fc076b756177f8"
+	},
+	"createdAt": {
+		"$date": "2025-07-01T12:32:11.423Z"
+	},
+	"updatedAt": {
+		"$date": "2025-07-01T12:32:11.423Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6863d54b020e131bf118558a"
+	},
+	"lessonId": {
+		"$oid": "6863d54a020e131bf118557d"
+	},
+	"exerciseId": "exercise_5",
+	"type": "mental_visualization",
+	"title": "תרגיל ויזואליזציה - פנדל מנצח",
+	"description": "תרגל ויזואליזציה של ביצוע פנדל מוצלח",
+	"instructions": "השלם את התרגיל בקצב שלך. קח את הזמן לחשוב על התשובות.",
+	"settings": {
+		"order": 5,
+		"mandatory": false,
+		"points": 50,
+		"timeLimit": null,
+		"allowRetake": true,
+		"showCorrectAnswers": false
+	},
+	"content": {
+		"steps": [
+			{
+				"stepId": "s1",
+				"title": "הכנה",
+				"description": "מצא מקום שקט, שב בנוחות וסגור את העיניים",
+				"duration": 60
+			},
+			{
+				"stepId": "s2",
+				"title": "דמיין את המגרש",
+				"description": "דמיין את עצמך עומד בנקודת הפנדל, תחוש את הדשא מתחת לרגליים",
+				"duration": 120
+			},
+			{
+				"stepId": "s3",
+				"title": "ביצוע הבעיטה",
+				"description": "דמיין את עצמך רץ לכדור, בועט בדיוק ורואה את הכדור נכנס לשער",
+				"duration": 180
+			}
+		],
+		"audioGuidance": "https://example.com/visualization-audio.mp3",
+		"reflectionPrompts": [
+			"איך הרגשת במהלך התרגיל?",
+			"כמה ברור היה הדימוי המנטלי?"
+		]
+	},
+	"createdBy": {
+		"$oid": "67dc0618e3fc076b756177f8"
+	},
+	"lastModifiedBy": {
+		"$oid": "67dc0618e3fc076b756177f8"
+	},
+	"createdAt": {
+		"$date": "2025-07-01T12:32:11.569Z"
+	},
+	"updatedAt": {
+		"$date": "2025-07-01T12:32:11.569Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6863d54b020e131bf118558c"
+	},
+	"lessonId": {
+		"$oid": "6863d54a020e131bf1185580"
+	},
+	"exerciseId": "exercise_6",
+	"type": "questionnaire",
+	"title": "הערכת חשיבה חיובית",
+	"description": "בדוק את רמת החשיבה החיובית שלך",
+	"instructions": "השלם את התרגיל בקצב שלך. קח את הזמן לחשוב על התשובות.",
+	"settings": {
+		"order": 6,
+		"mandatory": false,
+		"points": 50,
+		"timeLimit": 600,
+		"allowRetake": true,
+		"showCorrectAnswers": true
+	},
+	"content": {
+		"questions": [
+			{
+				"questionId": "pq1",
+				"questionText": "כשאני מפספס הזדמנות להבקיע, אני...",
+				"questionType": "scale",
+				"scaleMin": 1,
+				"scaleMax": 5,
+				"scaleLabels": {
+					"1": "מתייאש לגמרי",
+					"5": "מתמקד בהזדמנות הבאה"
+				},
+				"points": 20,
+				"required": true
+			},
+			{
+				"questionId": "pq2",
+				"questionText": "לפני משחק חשוב אני חושב בעיקר על...",
+				"questionType": "single_choice",
+				"options": [
+					{
+						"optionId": "a",
+						"text": "מה יקרה אם אכשל",
+						"isCorrect": false
+					},
+					{
+						"optionId": "b",
+						"text": "איך אצליח ואתרום לקבוצה",
+						"isCorrect": true
+					},
+					{
+						"optionId": "c",
+						"text": "שלא אעשה טעויות",
+						"isCorrect": false
+					}
+				],
+				"points": 30,
+				"required": true
+			}
+		]
+	},
+	"createdBy": {
+		"$oid": "67dc0618e3fc076b756177f8"
+	},
+	"lastModifiedBy": {
+		"$oid": "67dc0618e3fc076b756177f8"
+	},
+	"createdAt": {
+		"$date": "2025-07-01T12:32:11.715Z"
+	},
+	"updatedAt": {
+		"$date": "2025-07-01T12:32:11.715Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6863d54b020e131bf118558e"
+	},
+	"lessonId": {
+		"$oid": "6863d54a020e131bf1185580"
+	},
+	"exerciseId": "exercise_7",
+	"type": "text_input",
+	"title": "יומן חשיבה חיובית",
+	"description": "התחל לנהל יומן חשיבה חיובית",
+	"instructions": "השלם את התרגיל בקצב שלך. קח את הזמן לחשוב על התשובות.",
+	"settings": {
+		"order": 7,
+		"mandatory": false,
+		"points": 50,
+		"timeLimit": null,
+		"allowRetake": true,
+		"showCorrectAnswers": false
+	},
+	"content": {
+		"prompts": [
+			{
+				"promptId": "jp1",
+				"text": "רשום 3 דברים חיוביים שקרו לך היום באימון/משחק",
+				"maxLength": 500,
+				"required": true
+			},
+			{
+				"promptId": "jp2",
+				"text": "איזו מחשבה חיובית תיקח איתך למשחק הבא?",
+				"maxLength": 200,
+				"required": true
+			}
+		]
+	},
+	"createdBy": {
+		"$oid": "67dc0618e3fc076b756177f8"
+	},
+	"lastModifiedBy": {
+		"$oid": "67dc0618e3fc076b756177f8"
+	},
+	"createdAt": {
+		"$date": "2025-07-01T12:32:11.889Z"
+	},
+	"updatedAt": {
+		"$date": "2025-07-01T12:32:11.889Z"
+	},
+	"__v": 0
+}]
+

@@ -1,0 +1,2482 @@
+[{
+	"_id": {
+		"$oid": "67b712d57a527165feead1c2"
+	},
+	"firstName": "matan",
+	"lastName": "dabush",
+	"email": "mtndbs1@gmail.com",
+	"phone": "0528994325",
+	"uid": "qusuZ4otWQhRkBhSvr54UsIKnCH2",
+	"nickName": "",
+	"age": 23,
+	"position": "CDM",
+	"strongLeg": "left",
+	"league": {
+		"$oid": "677cf57ea17baa07b47557c4"
+	},
+	"team": {
+		"$oid": "677cde2afb7bb4d265208707"
+	},
+	"matches": [],
+	"subscriptionType": "basic",
+	"totalScore": 0,
+	"totalWins": 0,
+	"setProfileComplete": false,
+	"setGoalAndProfileComplete": false,
+	"role": 0,
+	"currentStatus": [],
+	"encouragementSystemMessages": [],
+	"createdAt": {
+		"$date": "2025-02-20T11:32:37.58Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "67dc0618e3fc076b756177f8"
+	},
+	"email": "amit@trabelsi.me",
+	"phone": "0506362008",
+	"password": "At956988!",
+	"uid": "udVnZ0N6eoO3sAgGUG65E3wow2A2",
+	"subscriptionType": "basic",
+	"totalScore": 0,
+	"totalWins": 0,
+	"setProfileComplete": true,
+	"setGoalAndProfileComplete": true,
+	"role": 3,
+	"currentStatus": [
+		{
+			"title": "preasure",
+			"rating": 2,
+			"_id": {
+				"$oid": "67e1b359e853ecec022fd819"
+			}
+		},
+		{
+			"title": "confidence",
+			"rating": 4,
+			"_id": {
+				"$oid": "67e1b359e853ecec022fd81a"
+			}
+		}
+	],
+	"matches": [],
+	"trainings": [
+		{
+			"date": {
+				"$date": "2025-03-20T00:00:00Z"
+			},
+			"goal": {
+				"goalName": "אני כובש",
+				"performed": 1
+			},
+			"personalityGroup": {
+				"tag": "מחוייב",
+				"performed": 0.8
+			},
+			"season": "2024-2025",
+			"isOpen": false,
+			"investigation": true,
+			"_id": {
+				"$oid": "67dc0ff4e3fc076b756178d4"
+			},
+			"actions": [
+				{
+					"actionName": "אני מדבר",
+					"performed": 0.5,
+					"_id": {
+						"$oid": "67e1abf6e853ecec022fd7b1"
+					}
+				}
+			]
+		},
+		{
+			"date": {
+				"$date": "2025-03-20T14:54:41.241Z"
+			},
+			"goal": {
+				"performed": 0
+			},
+			"personalityGroup": {
+				"performed": 0
+			},
+			"season": "2024-2025",
+			"isOpen": true,
+			"investigation": false,
+			"_id": {
+				"$oid": "67dc102de3fc076b756178f9"
+			},
+			"actions": []
+		}
+	],
+	"encouragementSystemMessages": [],
+	"createdAt": {
+		"$date": "2025-03-20T12:12:08.389Z"
+	},
+	"__v": 0,
+	"firstName": "עמית",
+	"lastName": "טרבלסי",
+	"league": {
+		"$oid": "677cf57ea17baa07b47557c4"
+	},
+	"nickName": "",
+	"position": "ST",
+	"selectedTeamColor": {
+		"hex1": "#4CAF50",
+		"hex2": "#800000",
+		"hex3": "#FFFFFF"
+	},
+	"strongLeg": "right",
+	"team": {
+		"$oid": "677ce2dd2b69d9d876676dcd"
+	},
+	"breakOutSeason": "לשחק בבוגרים",
+	"theDream": "לשחק בנבחרת",
+	"playerNumber": "24"
+},
+{
+	"_id": {
+		"$oid": "67e3f0f7071722fc5bc3a926"
+	},
+	"email": "Amit+2@trabelsi.me",
+	"phone": "0506362009",
+	"password": "At956988",
+	"uid": "G8vQGpjDHhZ2WKaRK0KbuKWuS2H2",
+	"subscriptionType": "basic",
+	"totalScore": 0,
+	"totalWins": 0,
+	"setProfileComplete": true,
+	"setGoalAndProfileComplete": true,
+	"role": 3,
+	"currentStatus": [
+		{
+			"title": "preasure",
+			"rating": 2,
+			"_id": {
+				"$oid": "67e3f1ed071722fc5bc3a97a"
+			}
+		},
+		{
+			"title": "confidence",
+			"rating": 3,
+			"_id": {
+				"$oid": "67e3f1ed071722fc5bc3a97b"
+			}
+		}
+	],
+	"matches": [],
+	"trainings": [
+		{
+			"date": {
+				"$date": "2025-03-26T00:00:00Z"
+			},
+			"goal": {
+				"goalName": "אני מביא את היכולת האמיתית שלי למשחק",
+				"performed": 1
+			},
+			"personalityGroup": {
+				"tag": "אגרסיבי",
+				"performed": 0.8
+			},
+			"season": "2024-2025",
+			"isOpen": false,
+			"investigation": true,
+			"_id": {
+				"$oid": "67e3f2b5071722fc5bc3a98f"
+			},
+			"actions": [
+				{
+					"actionName": "אני מפעיל לחץ על הבלמים",
+					"performed": 1,
+					"_id": {
+						"$oid": "67e4d0a61ffe06e5ce1ce902"
+					}
+				},
+				{
+					"actionName": "אני דינמי גם כשהקבוצה שלי תוקפת",
+					"performed": 0.5,
+					"_id": {
+						"$oid": "67e4d0a61ffe06e5ce1ce903"
+					}
+				}
+			]
+		}
+	],
+	"encouragementSystemMessages": [],
+	"createdAt": {
+		"$date": "2025-03-26T12:20:07.008Z"
+	},
+	"__v": 0,
+	"firstName": "חיים",
+	"lastName": "רביבו",
+	"league": {
+		"$oid": "677cf57ea17baa07b47557c4"
+	},
+	"nickName": "",
+	"playerNumber": "10",
+	"position": "ST",
+	"selectedTeamColor": {
+		"hex1": "#36FA00",
+		"hex2": "#FFFFFF",
+		"hex3": "#C1B9B9"
+	},
+	"strongLeg": "left",
+	"team": {
+		"$oid": "67da71a7bb908fa540b07f47"
+	},
+	"breakOutSeason": "לשחק בטורקיה",
+	"theDream": "להיות הישראלי הראשון בליגת האלופות"
+},
+{
+	"_id": {
+		"$oid": "67e512971ffe06e5ce1ce953"
+	},
+	"email": "amit+23@trabelsi.me",
+	"phone": "0506362008",
+	"password": "At956988",
+	"uid": "mWjerrv5Q1f17T6XrLzDJUfGs8H2",
+	"subscriptionType": "basic",
+	"totalScore": 0,
+	"totalWins": 0,
+	"setProfileComplete": false,
+	"setGoalAndProfileComplete": false,
+	"role": 3,
+	"currentStatus": [],
+	"matches": [],
+	"trainings": [],
+	"encouragementSystemMessages": [],
+	"createdAt": {
+		"$date": "2025-03-27T08:55:51.557Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "67e512971ffe06e5ce1ce955"
+	},
+	"email": "amit+23@trabelsi.me",
+	"phone": "0506362008",
+	"password": "At956988",
+	"uid": "dBLv1qHbbocQpZNmA6730HDGZmN2",
+	"subscriptionType": "basic",
+	"totalScore": 0,
+	"totalWins": 0,
+	"setProfileComplete": true,
+	"setGoalAndProfileComplete": true,
+	"role": 3,
+	"currentStatus": [
+		{
+			"title": "preasure",
+			"rating": 3,
+			"_id": {
+				"$oid": "67e5158b1ffe06e5ce1ce960"
+			}
+		},
+		{
+			"title": "confidence",
+			"rating": 4,
+			"_id": {
+				"$oid": "67e5158b1ffe06e5ce1ce961"
+			}
+		}
+	],
+	"matches": [],
+	"trainings": [
+		{
+			"date": {
+				"$date": "2025-03-27T00:00:00Z"
+			},
+			"goal": {
+				"goalName": "אני מנצח במאבקים"
+			},
+			"personalityGroup": {
+				"title": "מפוקס",
+				"tag": "ממוקד"
+			},
+			"season": "2024-2025",
+			"isOpen": true,
+			"investigation": false,
+			"_id": {
+				"$oid": "67e5171f1ffe06e5ce1ce975"
+			},
+			"actions": [
+				{
+					"actionName": "אני דינמי גם כשהקבוצה שלי תוקפת",
+					"performed": 0,
+					"_id": {
+						"$oid": "67e5186e1ffe06e5ce1ce9ad"
+					}
+				},
+				{
+					"actionName": "כשאני מגיע למצב הרמה, אני מרים ראש ומחפש שחקנים ברחבה",
+					"performed": 0,
+					"_id": {
+						"$oid": "67e5186e1ffe06e5ce1ce9ae"
+					}
+				}
+			]
+		}
+	],
+	"encouragementSystemMessages": [],
+	"createdAt": {
+		"$date": "2025-03-27T08:55:51.86Z"
+	},
+	"__v": 0,
+	"firstName": "עמית",
+	"lastName": "טרבלסי2",
+	"league": {
+		"$oid": "67864e03dd0314b4261fd5fc"
+	},
+	"nickName": "",
+	"playerNumber": "4",
+	"position": "ST",
+	"selectedTeamColor": {
+		"hex1": "#36FA00",
+		"hex2": "#FFFFFF",
+		"hex3": "#C1B9B9"
+	},
+	"strongLeg": "right",
+	"team": {
+		"$oid": "67da71a7bb908fa540b07f47"
+	},
+	"breakOutSeason": "לשחק בליגת האלופות",
+	"theDream": "לזכות באלופות"
+},
+{
+	"_id": {
+		"$oid": "67e51beb8481c20f17956e02"
+	},
+	"email": "testy@gmail.com",
+	"phone": "0528994325",
+	"uid": "dcW8deMkGDQCy5ABBHxhTW46elX2",
+	"subscriptionType": "advanced",
+	"totalScore": 0,
+	"totalWins": 0,
+	"setProfileComplete": true,
+	"setGoalAndProfileComplete": true,
+	"role": 3,
+	"currentStatus": [
+		{
+			"title": "preasure",
+			"rating": 3,
+			"_id": {
+				"$oid": "67e51c4d8481c20f17956e0d"
+			}
+		},
+		{
+			"title": "confidence",
+			"rating": 1,
+			"_id": {
+				"$oid": "67e51c4d8481c20f17956e0e"
+			}
+		}
+	],
+	"matches": [
+		{
+			"date": {
+				"$date": "2025-03-27T08:26:17.97Z"
+			},
+			"homeTeam": {
+				"_id": {
+					"$oid": "67da721bbb908fa540b07f4e"
+				},
+				"name": "הפועל באר שבע נוער ג"
+			},
+			"awayTeam": {
+				"_id": {
+					"$oid": "677cde2afb7bb4d265208707"
+				},
+				"name": "מכבי תל אביב עודד"
+			},
+			"score": {
+				"home": 0,
+				"away": 0
+			},
+			"goal": {
+				"performed": 0
+			},
+			"personalityGroup": {
+				"performed": 0
+			},
+			"season": "2024-2025",
+			"isOpen": true,
+			"investigation": false,
+			"isHomeMatch": true,
+			"visible": false,
+			"_id": {
+				"$oid": "67e527d146cf54341a669008"
+			},
+			"actions": []
+		},
+		{
+			"date": {
+				"$date": "2025-03-27T22:00:00Z"
+			},
+			"homeTeam": {
+				"_id": {
+					"$oid": "67da721bbb908fa540b07f4e"
+				},
+				"name": "הפועל באר שבע נוער ג"
+			},
+			"awayTeam": {
+				"_id": {
+					"$oid": "677cde2afb7bb4d265208707"
+				},
+				"name": "מכבי תל אביב עודד"
+			},
+			"score": {
+				"home": 0,
+				"away": 0
+			},
+			"goal": {
+				"performed": 0
+			},
+			"personalityGroup": {
+				"performed": 0
+			},
+			"season": "2024-2025",
+			"isOpen": false,
+			"investigation": false,
+			"isHomeMatch": true,
+			"visible": true,
+			"_id": {
+				"$oid": "67e54e4b799ed398deb8d9d4"
+			},
+			"actions": []
+		}
+	],
+	"trainings": [],
+	"encouragementSystemMessages": [],
+	"createdAt": {
+		"$date": "2025-03-27T09:35:39.96Z"
+	},
+	"__v": 0,
+	"firstName": "sds",
+	"lastName": "asdasda",
+	"league": {
+		"$oid": "677cf57ea17baa07b47557c4"
+	},
+	"nickName": "asdasdada",
+	"playerNumber": "23",
+	"position": "CF",
+	"selectedTeamColor": {
+		"hex1": "#F82020",
+		"hex2": "#AD9F9F",
+		"hex3": "#FFFFFF"
+	},
+	"strongLeg": "left",
+	"team": {
+		"$oid": "67da721bbb908fa540b07f4e"
+	},
+	"userLeague": null,
+	"userTeam": null,
+	"breakOutSeason": "asdasdas",
+	"theDream": "sdasdasdada",
+	"fcmToken": "cauO_IggTJWijlGXKW1Ksu:APA91bGKL4_Uvt9Zj-Ugb3bSrcndcYMoFOts5mRrLagOZA9-jT2B6m3feboD9UJ1DMESIAhIBrTFN2p0d9guBE_z96pIYlIkgYvAz4mo-JFmAqBFwnOQQjc"
+},
+{
+	"_id": {
+		"$oid": "67ea6138a8145d275e1fc4ee"
+	},
+	"email": "koki@gmail.com",
+	"phone": "881900",
+	"uid": "OaTHGzIjkbgkGjZ8vwrwbsYX7gv1",
+	"subscriptionType": "basic",
+	"totalScore": 0,
+	"totalWins": 0,
+	"setProfileComplete": true,
+	"setGoalAndProfileComplete": true,
+	"role": 3,
+	"currentStatus": [
+		{
+			"title": "preasure",
+			"rating": 1,
+			"_id": {
+				"$oid": "67eb857c758b5839d9febee7"
+			}
+		},
+		{
+			"title": "confidence",
+			"rating": 2,
+			"_id": {
+				"$oid": "67eb857c758b5839d9febee8"
+			}
+		}
+	],
+	"matches": [
+		{
+			"date": {
+				"$date": "2025-03-31T12:34:50.705Z"
+			},
+			"homeTeam": {
+				"_id": {
+					"$oid": "677cde2afb7bb4d265208707"
+				},
+				"name": "מכבי תל אביב עודד"
+			},
+			"awayTeam": {
+				"_id": {
+					"$oid": "67da71a7bb908fa540b07f47"
+				},
+				"name": "מכבי חיפה נוער א"
+			},
+			"score": {
+				"home": 0,
+				"away": 0
+			},
+			"goal": {
+				"goalName": "אני דומיננטי כל המשחק"
+			},
+			"personalityGroup": {
+				"title": "מנהיג",
+				"tag": "אגרסיבי"
+			},
+			"season": "2024-2025",
+			"isOpen": false,
+			"investigation": false,
+			"isHomeMatch": true,
+			"visible": false,
+			"_id": {
+				"$oid": "67ea61c0a8145d275e1fc543"
+			},
+			"actions": [
+				{
+					"actionName": "לדבר עם רבעיית ההגנה",
+					"performed": 0,
+					"_id": {
+						"$oid": "67ea61d3a8145d275e1fc550"
+					}
+				},
+				{
+					"actionName": "מעודד ומכוון את ההגנה כל הזמן",
+					"performed": 0,
+					"_id": {
+						"$oid": "67ea61d3a8145d275e1fc551"
+					}
+				}
+			]
+		},
+		{
+			"date": {
+				"$date": "2025-03-11T00:00:00Z"
+			},
+			"homeTeam": {
+				"_id": {
+					"$oid": "677cde2afb7bb4d265208707"
+				},
+				"name": "מכבי תל אביב עודד"
+			},
+			"awayTeam": {
+				"_id": {
+					"$oid": "677ce2dd2b69d9d876676dcd"
+				},
+				"name": "מכבי נתניה יוני לוי"
+			},
+			"score": {
+				"home": 0,
+				"away": 0
+			},
+			"goal": {
+				"performed": 0
+			},
+			"personalityGroup": {
+				"performed": 0
+			},
+			"season": "2024-2025",
+			"isOpen": false,
+			"investigation": false,
+			"isHomeMatch": true,
+			"visible": false,
+			"_id": {
+				"$oid": "67ea7e8ca8145d275e1fc9d2"
+			},
+			"actions": []
+		}
+	],
+	"trainings": [],
+	"encouragementSystemMessages": [],
+	"createdAt": {
+		"$date": "2025-03-31T09:32:40.82Z"
+	},
+	"__v": 0,
+	"firstName": "מתן",
+	"lastName": "דבוש",
+	"league": {
+		"$oid": "6783be0effbe4d42c120ea4e"
+	},
+	"nickName": "חיחו",
+	"playerNumber": "15",
+	"position": "CB",
+	"selectedTeamColor": {
+		"hex1": "#FFDD00",
+		"hex2": "#3504E7",
+		"hex3": "#FFFFFF"
+	},
+	"strongLeg": "right",
+	"team": {
+		"$oid": "677cde2afb7bb4d265208707"
+	},
+	"userLeague": null,
+	"userTeam": null,
+	"breakOutSeason": "67",
+	"theDream": "ייייייע",
+	"fcmToken": "cXhucBv5RMOt9kzZ-674tX:APA91bEeRc15o-p-UWI-gnE4OmuueCL57-vFvQw0exts3ZfQx46vqoy2oOkO4X5FvlOxmbsNZAxqUZSahUNP9qN_0YS4hkFpTDjI_hlCVLad4Sqm0DjTEuo"
+},
+{
+	"_id": {
+		"$oid": "67ed3f6aefc51fb52950962c"
+	},
+	"email": "athbss@gmail.com",
+	"uid": "8qCiwL4FELSAQKVdTRC1rYfT5yb2",
+	"subscriptionType": "basic",
+	"totalScore": 0,
+	"totalWins": 0,
+	"setProfileComplete": true,
+	"setGoalAndProfileComplete": true,
+	"currentStatus": [
+		{
+			"title": "preasure",
+			"rating": 4,
+			"_id": {
+				"$oid": "6863ba3f36465364a3bfb265"
+			}
+		},
+		{
+			"title": "confidence",
+			"rating": 1,
+			"_id": {
+				"$oid": "6863ba3f36465364a3bfb266"
+			}
+		}
+	],
+	"matches": [
+		{
+			"date": {
+				"$date": "2025-07-01T22:40:00Z"
+			},
+			"homeTeam": {
+				"_id": {
+					"$oid": "677cde2afb7bb4d265208707"
+				},
+				"name": "מכבי תל אביב עודד"
+			},
+			"awayTeam": {
+				"_id": {
+					"$oid": "677ce2dd2b69d9d876676dcd"
+				},
+				"name": "מכבי נתניה יוני לוי"
+			},
+			"score": {
+				"home": 0,
+				"away": 0
+			},
+			"goal": {
+				"goalName": "אני מביא את היכולת האמיתית שלי למשחק"
+			},
+			"personalityGroup": {
+				"title": "ביטחון עצמי",
+				"tag": "נאמן לעצמי"
+			},
+			"season": "2024-2025",
+			"isUserPickedTime": true,
+			"isOpen": true,
+			"investigation": false,
+			"isHomeMatch": true,
+			"visible": true,
+			"_id": {
+				"$oid": "6863bb3f36465364a3bfb288"
+			},
+			"actions": [
+				{
+					"actionName": "אני אוסף את השחקנים לפני פתיחת המשחק לשיחה",
+					"performed": 0,
+					"_id": {
+						"$oid": "6863bb5c36465364a3bfb296"
+					}
+				},
+				{
+					"actionName": "אומר לעצמי את מילת הקוד שלי",
+					"performed": 0,
+					"_id": {
+						"$oid": "6863bb5c36465364a3bfb297"
+					}
+				},
+				{
+					"actionName": "כשאני מגיע למצב הרמה, אני מרים ראש ומחפש שחקנים ברחבה",
+					"performed": 0,
+					"_id": {
+						"$oid": "6863bb5c36465364a3bfb298"
+					}
+				}
+			]
+		}
+	],
+	"trainings": [],
+	"encouragementSystemMessages": [],
+	"createdAt": {
+		"$date": "2025-04-02T13:45:14.191Z"
+	},
+	"__v": 7,
+	"firstName": "עמית2",
+	"lastName": "gyre",
+	"league": {
+		"$oid": "677cf57ea17baa07b47557c4"
+	},
+	"nickName": "",
+	"playerNumber": "24",
+	"position": "ST",
+	"selectedTeamColor": {
+		"hex1": "#FFDD00",
+		"hex2": "#3504E7",
+		"hex3": "#FFFFFF"
+	},
+	"strongLeg": "left",
+	"team": {
+		"$oid": "677cde2afb7bb4d265208707"
+	},
+	"userLeague": null,
+	"userTeam": null,
+	"breakOutSeason": "בלה בלה",
+	"theDream": "חלום רחוק",
+	"mentalTrainingProgress": [
+		{
+			"trainingProgramId": {
+				"$oid": "6863d549020e131bf1185575"
+			},
+			"enrolledAt": {
+				"$date": "2025-07-01T23:28:04.521Z"
+			},
+			"lessonProgress": [
+				{
+					"lessonId": {
+						"$oid": "6863d54a020e131bf1185580"
+					},
+					"startedAt": {
+						"$date": "2025-07-01T23:28:04.525Z"
+					},
+					"watchTime": 0,
+					"progressPercentage": 0,
+					"completed": false,
+					"_id": {
+						"$oid": "68646f04b460943d9fba5ca6"
+					}
+				},
+				{
+					"lessonId": {
+						"$oid": "6863d54a020e131bf1185579"
+					},
+					"startedAt": {
+						"$date": "2025-07-01T23:28:24.603Z"
+					},
+					"watchTime": 0,
+					"progressPercentage": 0,
+					"completed": false,
+					"_id": {
+						"$oid": "68646f18b460943d9fba5cdf"
+					}
+				},
+				{
+					"lessonId": {
+						"$oid": "6863d54a020e131bf1185577"
+					},
+					"startedAt": {
+						"$date": "2025-07-01T23:35:52.98Z"
+					},
+					"watchTime": 0,
+					"progressPercentage": 0,
+					"completed": false,
+					"_id": {
+						"$oid": "686470d8b460943d9fba5d0a"
+					}
+				},
+				{
+					"lessonId": {
+						"$oid": "6863d54a020e131bf118557b"
+					},
+					"startedAt": {
+						"$date": "2025-07-02T00:14:44.594Z"
+					},
+					"watchTime": 0,
+					"progressPercentage": 0,
+					"completed": false,
+					"_id": {
+						"$oid": "686479f49cdea1f497b20656"
+					}
+				},
+				{
+					"lessonId": {
+						"$oid": "6863d54a020e131bf118557d"
+					},
+					"startedAt": {
+						"$date": "2025-07-02T00:15:08.224Z"
+					},
+					"watchTime": 0,
+					"progressPercentage": 0,
+					"completed": false,
+					"_id": {
+						"$oid": "68647a0c9cdea1f497b206b5"
+					}
+				},
+				{
+					"lessonId": {
+						"$oid": "6863d54a020e131bf1185581"
+					},
+					"startedAt": {
+						"$date": "2025-07-02T00:24:15.494Z"
+					},
+					"watchTime": 0,
+					"progressPercentage": 0,
+					"completed": false,
+					"_id": {
+						"$oid": "68647c2f9cdea1f497b2089e"
+					}
+				},
+				{
+					"lessonId": {
+						"$oid": "6863d54a020e131bf1185582"
+					},
+					"startedAt": {
+						"$date": "2025-07-02T00:29:27.844Z"
+					},
+					"watchTime": 0,
+					"progressPercentage": 0,
+					"completed": false,
+					"_id": {
+						"$oid": "68647d679cdea1f497b2099b"
+					}
+				}
+			],
+			"exerciseResponses": [],
+			"overallProgress": 0,
+			"totalWatchTime": 0,
+			"lastAccessed": {
+				"$date": "2025-07-02T00:29:27.845Z"
+			},
+			"completed": false,
+			"earnedPoints": 0,
+			"_id": {
+				"$oid": "68646f04b460943d9fba5ca5"
+			},
+			"currentLesson": {
+				"$oid": "6863d54a020e131bf1185582"
+			}
+		}
+	]
+},
+{
+	"_id": {
+		"$oid": "67ee5259b202063f49fadc75"
+	},
+	"email": "matan.d@amit.team",
+	"uid": "rBA2K2VTGUb9BWUwH8zN2OkUmw13",
+	"subscriptionType": "advanced",
+	"totalScore": 0,
+	"totalWins": 0,
+	"setProfileComplete": true,
+	"setGoalAndProfileComplete": true,
+	"currentStatus": [
+		{
+			"title": "preasure",
+			"rating": 4,
+			"_id": {
+				"$oid": "685b8def022562a55b8bae7a"
+			}
+		},
+		{
+			"title": "confidence",
+			"rating": 3,
+			"_id": {
+				"$oid": "685b8def022562a55b8bae7b"
+			}
+		}
+	],
+	"matches": [
+		{
+			"date": {
+				"$date": "2025-05-21T00:00:00Z"
+			},
+			"homeTeam": {
+				"_id": {
+					"$oid": "677cde2afb7bb4d265208707"
+				},
+				"name": "מכבי תל אביב עודד"
+			},
+			"awayTeam": {
+				"_id": {
+					"$oid": "67da71a7bb908fa540b07f47"
+				},
+				"name": "מכבי חיפה נוער א"
+			},
+			"score": {
+				"home": 0,
+				"away": 0
+			},
+			"goal": {
+				"performed": 0
+			},
+			"personalityGroup": {
+				"performed": 0
+			},
+			"season": "2024-2025",
+			"isUserPickedTime": false,
+			"isOpen": true,
+			"investigation": false,
+			"isHomeMatch": true,
+			"visible": true,
+			"_id": {
+				"$oid": "681b053018bfc24095b2fac2"
+			},
+			"actions": []
+		}
+	],
+	"trainings": [],
+	"encouragementSystemMessages": [],
+	"createdAt": {
+		"$date": "2025-04-03T09:18:17.524Z"
+	},
+	"__v": 0,
+	"firstName": "מתן ",
+	"lastName": "דבוש",
+	"league": {
+		"$oid": "677cf57ea17baa07b47557c4"
+	},
+	"nickName": "דבוש",
+	"playerNumber": "23",
+	"position": "CF",
+	"selectedTeamColor": {
+		"hex1": "#FFDD00",
+		"hex2": "#800000",
+		"hex3": "#FFFFFF"
+	},
+	"strongLeg": "right",
+	"team": {
+		"$oid": "677cde2afb7bb4d265208707"
+	},
+	"userLeague": null,
+	"userTeam": null,
+	"breakOutSeason": "asdas",
+	"theDream": "asdasd",
+	"subscriptionId": {
+		"$oid": "6804c2c8bbd7f22eeda1d344"
+	}
+},
+{
+	"_id": {
+		"$oid": "67ee74fde66e47837f08c63e"
+	},
+	"email": "ynonra@gmail.com",
+	"uid": "8E1ExNmHWpgZHFnLPpp901BmxUu1",
+	"subscriptionType": "basic",
+	"totalScore": 0,
+	"totalWins": 0,
+	"setProfileComplete": false,
+	"setGoalAndProfileComplete": false,
+	"currentStatus": [],
+	"matches": [],
+	"trainings": [],
+	"encouragementSystemMessages": [],
+	"createdAt": {
+		"$date": "2025-04-03T11:46:05.209Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "67f6aa95e681c7786f75806e"
+	},
+	"email": "amit@trabel.si",
+	"uid": "n0b27tSlLeWjZVTNDjxWvZKPtaa2",
+	"subscriptionType": "basic",
+	"totalScore": 0,
+	"totalWins": 0,
+	"setProfileComplete": true,
+	"setGoalAndProfileComplete": true,
+	"currentStatus": [
+		{
+			"title": "preasure",
+			"rating": 4,
+			"_id": {
+				"$oid": "68343080e1579760a1e0f87c"
+			}
+		},
+		{
+			"title": "confidence",
+			"rating": 2,
+			"_id": {
+				"$oid": "68343080e1579760a1e0f87d"
+			}
+		}
+	],
+	"matches": [
+		{
+			"date": {
+				"$date": "2025-04-10T00:00:00Z"
+			},
+			"homeTeam": {
+				"_id": {
+					"$oid": "67da721bbb908fa540b07f4e"
+				},
+				"name": "הפועל באר שבע נוער ג"
+			},
+			"awayTeam": {
+				"_id": {
+					"$oid": "67da71a7bb908fa540b07f47"
+				},
+				"name": "מכבי חיפה נוער א"
+			},
+			"score": {
+				"home": 0,
+				"away": 0
+			},
+			"goal": {
+				"goalName": "אני מבשל",
+				"performed": 0.5
+			},
+			"personalityGroup": {
+				"tag": "מעורר השראה",
+				"performed": 0.8
+			},
+			"season": "2024-2025",
+			"isOpen": false,
+			"investigation": true,
+			"isHomeMatch": true,
+			"visible": true,
+			"_id": {
+				"$oid": "67f75336e681c7786f7581f2"
+			},
+			"actions": [
+				{
+					"actionName": "לדבר עם רבעיית ההגנה",
+					"performed": 1,
+					"_id": {
+						"$oid": "67f7aaed734b48463a22f1e0"
+					}
+				},
+				{
+					"actionName": "מעודד ומכוון את ההגנה כל הזמן",
+					"performed": 0,
+					"_id": {
+						"$oid": "67f7aaed734b48463a22f1e1"
+					}
+				},
+				{
+					"actionName": "אני שולט בקצב המשחק",
+					"performed": 1,
+					"_id": {
+						"$oid": "67f7aaed734b48463a22f1e2"
+					}
+				}
+			],
+			"matchResult": "draw",
+			"note": "אני חייב לעשות יותר תנועה לעומק בין הבלמים"
+		},
+		{
+			"date": {
+				"$date": "2025-05-25T20:00:00Z"
+			},
+			"homeTeam": {
+				"_id": {
+					"$oid": "67da721bbb908fa540b07f4e"
+				},
+				"name": "הפועל באר שבע נוער ג"
+			},
+			"awayTeam": {
+				"_id": {
+					"$oid": "677cde2afb7bb4d265208707"
+				},
+				"name": "מכבי תל אביב עודד"
+			},
+			"score": {
+				"home": 0,
+				"away": 0
+			},
+			"goal": {
+				"goalName": "אני כובש",
+				"performed": 0.5
+			},
+			"personalityGroup": {
+				"tag": "מחוייב",
+				"performed": 0.8
+			},
+			"season": "2024-2025",
+			"isUserPickedTime": true,
+			"isOpen": false,
+			"investigation": true,
+			"isHomeMatch": true,
+			"visible": true,
+			"_id": {
+				"$oid": "68343260e1579760a1e0f8a6"
+			},
+			"actions": [
+				{
+					"actionName": "לדבר עם רבעיית ההגנה",
+					"performed": 1,
+					"_id": {
+						"$oid": "68344aaee1579760a1e0f91e"
+					}
+				},
+				{
+					"actionName": "אני מדבר",
+					"performed": 1,
+					"_id": {
+						"$oid": "68344aaee1579760a1e0f91f"
+					}
+				},
+				{
+					"actionName": "מעודד ומכוון את ההגנה כל הזמן",
+					"performed": 0.5,
+					"_id": {
+						"$oid": "68344aaee1579760a1e0f920"
+					}
+				}
+			],
+			"matchResult": "draw",
+			"note": "חייב להשתפר!"
+		},
+		{
+			"date": {
+				"$date": "2025-05-26T16:24:00Z"
+			},
+			"homeTeam": {
+				"_id": {
+					"$oid": "67da721bbb908fa540b07f4e"
+				},
+				"name": "הפועל באר שבע נוער ג"
+			},
+			"awayTeam": {
+				"_id": {
+					"$oid": "677cde2afb7bb4d265208707"
+				},
+				"name": "מכבי תל אביב עודד"
+			},
+			"score": {
+				"home": 0,
+				"away": 0
+			},
+			"goal": {
+				"goalName": "אני מבשל",
+				"performed": 0
+			},
+			"personalityGroup": {
+				"tag": "מחוייב",
+				"performed": 0.6
+			},
+			"season": "2024-2025",
+			"isUserPickedTime": true,
+			"isOpen": false,
+			"investigation": true,
+			"isHomeMatch": true,
+			"visible": true,
+			"_id": {
+				"$oid": "68344f7fe1579760a1e0f964"
+			},
+			"actions": [
+				{
+					"actionName": "אני מדבר",
+					"performed": 0,
+					"_id": {
+						"$oid": "6863987036465364a3bfae33"
+					}
+				},
+				{
+					"actionName": "לדבר עם רבעיית ההגנה",
+					"performed": 0,
+					"_id": {
+						"$oid": "6863987036465364a3bfae34"
+					}
+				},
+				{
+					"actionName": "אני שולט בקצב המשחק",
+					"performed": 0,
+					"_id": {
+						"$oid": "6863987036465364a3bfae35"
+					}
+				}
+			],
+			"matchResult": "win",
+			"note": "לנסות חזק יותר"
+		},
+		{
+			"date": {
+				"$date": "2025-06-30T06:00:00Z"
+			},
+			"homeTeam": {
+				"_id": {
+					"$oid": "67da721bbb908fa540b07f4e"
+				},
+				"name": "הפועל באר שבע נוער ג"
+			},
+			"awayTeam": {
+				"_id": {
+					"$oid": "677ce2dd2b69d9d876676dcd"
+				},
+				"name": "מכבי נתניה יוני לוי"
+			},
+			"score": {
+				"home": 0,
+				"away": 0
+			},
+			"goal": {
+				"goalName": "אני מביא את היכולת האמיתית שלי למשחק",
+				"performed": 0
+			},
+			"personalityGroup": {
+				"tag": "מעורר השראה",
+				"performed": 0.6
+			},
+			"season": "2024-2025",
+			"isUserPickedTime": true,
+			"isOpen": false,
+			"investigation": true,
+			"isHomeMatch": true,
+			"visible": true,
+			"_id": {
+				"$oid": "68639b8336465364a3bfaec0"
+			},
+			"actions": [
+				{
+					"actionName": "אני דינמי גם כשהקבוצה שלי תוקפת",
+					"performed": 0,
+					"_id": {
+						"$oid": "6863a49636465364a3bfaf16"
+					}
+				},
+				{
+					"actionName": "אני עושה תנועות עומק ונכנס בגב של המגן היריב.",
+					"performed": 0,
+					"_id": {
+						"$oid": "6863a49636465364a3bfaf17"
+					}
+				},
+				{
+					"actionName": "אומר לעצמי את מילת הקוד שלי",
+					"performed": 0,
+					"_id": {
+						"$oid": "6863a49636465364a3bfaf18"
+					}
+				}
+			],
+			"matchResult": "win",
+			"note": "לנצח במאבקים"
+		}
+	],
+	"trainings": [
+		{
+			"date": {
+				"$date": "2025-07-01T19:04:00Z"
+			},
+			"goal": {
+				"performed": 0
+			},
+			"personalityGroup": {
+				"performed": 0
+			},
+			"season": "2024-2025",
+			"isOpen": true,
+			"investigation": false,
+			"visible": true,
+			"_id": {
+				"$oid": "6863a4ba36465364a3bfaf82"
+			},
+			"actions": []
+		}
+	],
+	"encouragementSystemMessages": [],
+	"createdAt": {
+		"$date": "2025-04-09T17:12:53.521Z"
+	},
+	"__v": 4,
+	"firstName": "עמית",
+	"lastName": "טרבלסי",
+	"league": {
+		"$oid": "677cf57ea17baa07b47557c4"
+	},
+	"nickName": "",
+	"playerNumber": "24",
+	"position": "ST",
+	"selectedTeamColor": {
+		"hex1": "#F82020",
+		"hex2": "#AD9F9F",
+		"hex3": "#FFFFFF"
+	},
+	"strongLeg": "left",
+	"team": {
+		"$oid": "67da721bbb908fa540b07f4e"
+	},
+	"userLeague": null,
+	"userTeam": null,
+	"breakOutSeason": "היעד שלי הוא חשוב",
+	"theDream": "החלום שלי גם חשוב",
+	"role": 0,
+	"mentalTrainingProgress": [
+		{
+			"trainingProgramId": {
+				"$oid": "6863d549020e131bf1185575"
+			},
+			"enrolledAt": {
+				"$date": "2025-07-02T01:55:15.727Z"
+			},
+			"lessonProgress": [
+				{
+					"lessonId": {
+						"$oid": "6863d54a020e131bf1185577"
+					},
+					"startedAt": {
+						"$date": "2025-07-02T01:55:15.732Z"
+					},
+					"watchTime": 0,
+					"progressPercentage": 0,
+					"completed": false,
+					"_id": {
+						"$oid": "68649183e87df3a172cabf97"
+					}
+				},
+				{
+					"lessonId": {
+						"$oid": "6863d54a020e131bf1185579"
+					},
+					"startedAt": {
+						"$date": "2025-07-02T02:12:33.241Z"
+					},
+					"watchTime": 0,
+					"progressPercentage": 0,
+					"completed": false,
+					"_id": {
+						"$oid": "68649591e87df3a172cac0bc"
+					}
+				},
+				{
+					"lessonId": {
+						"$oid": "6863d54a020e131bf118557b"
+					},
+					"startedAt": {
+						"$date": "2025-07-02T02:47:21.062Z"
+					},
+					"watchTime": 0,
+					"progressPercentage": 0,
+					"completed": false,
+					"_id": {
+						"$oid": "68649db9e87df3a172cac1ae"
+					}
+				},
+				{
+					"lessonId": {
+						"$oid": "6863d54a020e131bf1185590"
+					},
+					"startedAt": {
+						"$date": "2025-07-02T05:04:45.914Z"
+					},
+					"watchTime": 0,
+					"progressPercentage": 0,
+					"completed": false,
+					"_id": {
+						"$oid": "6864bded7bf6632007ee702a"
+					}
+				}
+			],
+			"exerciseResponses": [],
+			"overallProgress": 0,
+			"totalWatchTime": 0,
+			"lastAccessed": {
+				"$date": "2025-07-02T05:04:45.916Z"
+			},
+			"completed": false,
+			"earnedPoints": 0,
+			"_id": {
+				"$oid": "68649183e87df3a172cabf96"
+			},
+			"currentLesson": {
+				"$oid": "6863d54a020e131bf1185590"
+			}
+		}
+	]
+},
+{
+	"_id": {
+		"$oid": "67f6d5cde681c7786f7581b7"
+	},
+	"email": "corypowell.67302@gmail.com",
+	"uid": "YfpzWx57Ppeuz5a9PPhR1qa36Uv1",
+	"subscriptionType": "basic",
+	"totalScore": 0,
+	"totalWins": 0,
+	"setProfileComplete": false,
+	"setGoalAndProfileComplete": false,
+	"currentStatus": [],
+	"matches": [],
+	"trainings": [],
+	"encouragementSystemMessages": [],
+	"createdAt": {
+		"$date": "2025-04-09T20:17:17.753Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "67f7e1ab734b48463a22f41e"
+	},
+	"email": "eitanaz2@gmail.com",
+	"uid": "khRnE6EX6CWybuR6sl4IKTEabE53",
+	"subscriptionType": "basic",
+	"totalScore": 0,
+	"totalWins": 0,
+	"setProfileComplete": true,
+	"setGoalAndProfileComplete": true,
+	"currentStatus": [
+		{
+			"title": "preasure",
+			"rating": 1,
+			"_id": {
+				"$oid": "6841320a50d8d15c50304297"
+			}
+		},
+		{
+			"title": "confidence",
+			"rating": 2,
+			"_id": {
+				"$oid": "6841320a50d8d15c50304298"
+			}
+		}
+	],
+	"matches": [
+		{
+			"date": {
+				"$date": "2025-04-10T20:33:06.012Z"
+			},
+			"homeTeam": {
+				"name": "מנצ׳סטר יונייטד "
+			},
+			"awayTeam": {
+				"name": "מנצ׳סטר סיטי"
+			},
+			"score": {
+				"home": 0,
+				"away": 0
+			},
+			"goal": {
+				"goalName": "אני מבשל",
+				"performed": 0
+			},
+			"personalityGroup": {
+				"tag": "מנהיג",
+				"performed": 1
+			},
+			"season": "2024-2025",
+			"isOpen": false,
+			"investigation": true,
+			"isHomeMatch": true,
+			"visible": true,
+			"_id": {
+				"$oid": "67f800e1734b48463a22f556"
+			},
+			"actions": [
+				{
+					"actionName": "לדבר עם רבעיית ההגנה",
+					"performed": 1,
+					"_id": {
+						"$oid": "67ffdb8efccaa2018a239762"
+					}
+				},
+				{
+					"actionName": "אני מדבר",
+					"performed": 1,
+					"_id": {
+						"$oid": "67ffdb8efccaa2018a239763"
+					}
+				},
+				{
+					"actionName": "אני מחדש מהר התקפות",
+					"performed": 0.5,
+					"_id": {
+						"$oid": "67ffdb8efccaa2018a239764"
+					}
+				}
+			],
+			"matchResult": "win",
+			"note": "להכניס לאימונים  יותר אחד על אחד "
+		},
+		{
+			"date": {
+				"$date": "2025-04-16T22:24:42.017Z"
+			},
+			"homeTeam": {
+				"name": "מנצ׳סטר סיטי"
+			},
+			"awayTeam": {
+				"name": ""
+			},
+			"score": {
+				"home": 0,
+				"away": 0
+			},
+			"goal": {
+				"goalName": null,
+				"performed": 0
+			},
+			"personalityGroup": {
+				"tag": null,
+				"performed": 0.4
+			},
+			"season": "2024-2025",
+			"isOpen": false,
+			"investigation": true,
+			"isHomeMatch": true,
+			"visible": true,
+			"_id": {
+				"$oid": "680003fcfccaa2018a2397e4"
+			},
+			"actions": [],
+			"matchResult": "draw",
+			"note": ""
+		},
+		{
+			"date": {
+				"$date": "2025-04-21T15:19:15.789Z"
+			},
+			"homeTeam": {
+				"_id": {
+					"$oid": "67da71a7bb908fa540b07f47"
+				},
+				"name": "מכבי חיפה נוער א"
+			},
+			"awayTeam": {
+				"name": "מנצ׳סטר סיטי"
+			},
+			"score": {
+				"home": 0,
+				"away": 0
+			},
+			"goal": {
+				"goalName": "אני מנצח במאבקים",
+				"performed": 0.5
+			},
+			"personalityGroup": {
+				"tag": "מאמין",
+				"performed": 0.8
+			},
+			"season": "2024-2025",
+			"isOpen": true,
+			"investigation": true,
+			"isHomeMatch": true,
+			"visible": true,
+			"_id": {
+				"$oid": "680638153679c14f0fc61a4f"
+			},
+			"actions": [
+				{
+					"actionName": "אני מדבר ומכוון את ההגנה והקישור לאורך כל המשחק",
+					"performed": 1,
+					"_id": {
+						"$oid": "68063ef03679c14f0fc61d58"
+					}
+				},
+				{
+					"actionName": "אני דינמי גם כשהקבוצה שלי תוקפת",
+					"performed": 1,
+					"_id": {
+						"$oid": "68063ef03679c14f0fc61d59"
+					}
+				},
+				{
+					"actionName": "לדבר עם רבעיית ההגנה",
+					"performed": 0.5,
+					"_id": {
+						"$oid": "68063ef03679c14f0fc61d5a"
+					}
+				}
+			],
+			"matchResult": "draw",
+			"note": "אני חייב לאכול יותר אורז ולשתות יותר מים לילה לפני. "
+		},
+		{
+			"date": {
+				"$date": "2025-04-21T15:19:15.789Z"
+			},
+			"homeTeam": {
+				"_id": {
+					"$oid": "67da71a7bb908fa540b07f47"
+				},
+				"name": "מכבי חיפה נוער א"
+			},
+			"awayTeam": {
+				"name": "מנצ׳סטר סיטי"
+			},
+			"score": {
+				"home": 0,
+				"away": 0
+			},
+			"goal": {
+				"performed": 0
+			},
+			"personalityGroup": {
+				"performed": 0
+			},
+			"season": "2024-2025",
+			"isOpen": false,
+			"investigation": false,
+			"isHomeMatch": true,
+			"visible": false,
+			"_id": {
+				"$oid": "680638153679c14f0fc61a51"
+			},
+			"actions": []
+		},
+		{
+			"date": {
+				"$date": "2025-04-23T13:55:30.924Z"
+			},
+			"homeTeam": {
+				"name": "מנצ׳סטר סיטי"
+			},
+			"awayTeam": {
+				"_id": {
+					"$oid": "67da71a7bb908fa540b07f47"
+				},
+				"name": "מכבי חיפה נוער א"
+			},
+			"score": {
+				"home": 0,
+				"away": 0
+			},
+			"goal": {
+				"performed": 0
+			},
+			"personalityGroup": {
+				"performed": 0
+			},
+			"season": "2024-2025",
+			"isOpen": false,
+			"investigation": false,
+			"isHomeMatch": true,
+			"visible": false,
+			"_id": {
+				"$oid": "6808c72b50bcdb4b35376e5b"
+			},
+			"actions": []
+		},
+		{
+			"date": {
+				"$date": "2025-04-24T10:31:28.346Z"
+			},
+			"homeTeam": {
+				"name": "מנצ׳סטר סיטי"
+			},
+			"awayTeam": {
+				"_id": {
+					"$oid": "67da71a7bb908fa540b07f47"
+				},
+				"name": "מכבי חיפה נוער א"
+			},
+			"score": {
+				"home": 0,
+				"away": 0
+			},
+			"goal": {
+				"performed": 0
+			},
+			"personalityGroup": {
+				"performed": 0
+			},
+			"season": "2024-2025",
+			"isUserPickedTime": false,
+			"isOpen": false,
+			"investigation": false,
+			"isHomeMatch": true,
+			"visible": false,
+			"_id": {
+				"$oid": "6809e8d5c74207c613c7acb9"
+			},
+			"actions": []
+		},
+		{
+			"date": {
+				"$date": "2025-05-25T00:00:00Z"
+			},
+			"homeTeam": {
+				"name": "מכבי יבנה "
+			},
+			"awayTeam": {
+				"name": "מנצ׳סטר סיטי"
+			},
+			"score": {
+				"home": 0,
+				"away": 0
+			},
+			"goal": {
+				"performed": 0,
+				"goalName": "אני מביא את היכולת האמיתית שלי למשחק"
+			},
+			"personalityGroup": {
+				"performed": 0,
+				"title": "ביטחון עצמי",
+				"tag": "מאמין"
+			},
+			"season": "2024-2025",
+			"isUserPickedTime": false,
+			"isOpen": true,
+			"investigation": true,
+			"isHomeMatch": true,
+			"visible": true,
+			"_id": {
+				"$oid": "680e041f8caf19d3ff7962ec"
+			},
+			"actions": [
+				{
+					"actionName": "אומר לעצמי את מילת הקוד שלי",
+					"performed": 0,
+					"_id": {
+						"$oid": "6823219b68c07dfd0432a6fd"
+					}
+				},
+				{
+					"actionName": "אני דוחף את קו ההגנה כשהפער עם הקישור גדל",
+					"performed": 0,
+					"_id": {
+						"$oid": "6823219b68c07dfd0432a6fe"
+					}
+				},
+				{
+					"actionName": "כשאני מגיע למצב הרמה, אני מרים ראש ומחפש שחקנים ברחבה",
+					"performed": 0,
+					"_id": {
+						"$oid": "6823219b68c07dfd0432a6ff"
+					}
+				},
+				{
+					"actionName": "אני אוסף את השחקנים לפני פתיחת המשחק לשיחה",
+					"performed": 0,
+					"_id": {
+						"$oid": "6823219b68c07dfd0432a700"
+					}
+				}
+			],
+			"matchResult": "win",
+			"note": ""
+		},
+		{
+			"date": {
+				"$date": "2025-05-27T09:50:35.033Z"
+			},
+			"homeTeam": {
+				"_id": {
+					"$oid": "677cde2afb7bb4d265208707"
+				},
+				"name": "מכבי תל אביב עודד"
+			},
+			"awayTeam": {
+				"name": "מנצ׳סטר סיטי"
+			},
+			"score": {
+				"home": 0,
+				"away": 0
+			},
+			"goal": {
+				"performed": 0,
+				"goalName": "אני מבשל"
+			},
+			"personalityGroup": {
+				"performed": 0,
+				"title": "מנהיג",
+				"tag": "כריזמטי"
+			},
+			"season": "2024-2025",
+			"isUserPickedTime": false,
+			"isOpen": true,
+			"investigation": false,
+			"isHomeMatch": true,
+			"visible": true,
+			"_id": {
+				"$oid": "683560c64ea80ae8d49c4299"
+			},
+			"actions": [
+				{
+					"actionName": "לעשות לחץ ",
+					"performed": 0,
+					"_id": {
+						"$oid": "683561434ea80ae8d49c42f7"
+					}
+				},
+				{
+					"actionName": "אני תוקף את היריב בכל פעם שהוא מקבל כדור",
+					"performed": 0,
+					"_id": {
+						"$oid": "683561434ea80ae8d49c42f8"
+					}
+				},
+				{
+					"actionName": "עולה חזק ומתאבד על כל כדור גובה באיזור שלי",
+					"performed": 0,
+					"_id": {
+						"$oid": "683561434ea80ae8d49c42f9"
+					}
+				}
+			]
+		},
+		{
+			"date": {
+				"$date": "2025-05-27T09:50:35.033Z"
+			},
+			"homeTeam": {
+				"_id": {
+					"$oid": "677cde2afb7bb4d265208707"
+				},
+				"name": "מכבי תל אביב עודד"
+			},
+			"awayTeam": {
+				"name": "מנצ׳סטר סיטי"
+			},
+			"score": {
+				"home": 0,
+				"away": 0
+			},
+			"goal": {
+				"performed": 0
+			},
+			"personalityGroup": {
+				"performed": 0
+			},
+			"season": "2024-2025",
+			"isUserPickedTime": false,
+			"isOpen": true,
+			"investigation": false,
+			"isHomeMatch": true,
+			"visible": true,
+			"_id": {
+				"$oid": "683560c74ea80ae8d49c42c7"
+			},
+			"actions": []
+		},
+		{
+			"date": {
+				"$date": "2025-05-27T09:54:23.506Z"
+			},
+			"homeTeam": {
+				"name": "מנצ׳סטר סיטי"
+			},
+			"awayTeam": {
+				"_id": {
+					"$oid": "67da71a7bb908fa540b07f47"
+				},
+				"name": "מכבי חיפה נוער א"
+			},
+			"score": {
+				"home": 0,
+				"away": 0
+			},
+			"goal": {
+				"goalName": "אני מבשל"
+			},
+			"personalityGroup": {
+				"title": "מנהיג",
+				"tag": "בעל אמונה"
+			},
+			"season": "2024-2025",
+			"isUserPickedTime": false,
+			"isOpen": false,
+			"investigation": false,
+			"isHomeMatch": true,
+			"visible": true,
+			"_id": {
+				"$oid": "683561a44ea80ae8d49c43e4"
+			},
+			"actions": [
+				{
+					"actionName": "אני שולט בקצב המשחק",
+					"performed": 0,
+					"_id": {
+						"$oid": "683561b44ea80ae8d49c441c"
+					}
+				},
+				{
+					"actionName": "עושה NEXT מהיר ורודף להחזיר את הכדור",
+					"performed": 0,
+					"_id": {
+						"$oid": "683561b44ea80ae8d49c441d"
+					}
+				},
+				{
+					"actionName": "עיניים על הכדור",
+					"performed": 0,
+					"_id": {
+						"$oid": "683561b44ea80ae8d49c441e"
+					}
+				}
+			]
+		},
+		{
+			"date": {
+				"$date": "2025-05-27T04:09:00Z"
+			},
+			"homeTeam": {
+				"name": "מנצ׳סטר סיטי"
+			},
+			"awayTeam": {
+				"_id": {
+					"$oid": "677ce2dd2b69d9d876676dcd"
+				},
+				"name": "מכבי נתניה יוני לוי"
+			},
+			"score": {
+				"home": 0,
+				"away": 0
+			},
+			"goal": {
+				"performed": 0
+			},
+			"personalityGroup": {
+				"performed": 0
+			},
+			"season": "2024-2025",
+			"isUserPickedTime": true,
+			"isOpen": false,
+			"investigation": false,
+			"isHomeMatch": true,
+			"visible": true,
+			"_id": {
+				"$oid": "683565464ea80ae8d49c44b7"
+			},
+			"actions": []
+		},
+		{
+			"date": {
+				"$date": "2025-05-27T04:09:00Z"
+			},
+			"homeTeam": {
+				"name": "מנצ׳סטר סיטי"
+			},
+			"awayTeam": {
+				"_id": {
+					"$oid": "677ce2dd2b69d9d876676dcd"
+				},
+				"name": "מכבי נתניה יוני לוי"
+			},
+			"score": {
+				"home": 0,
+				"away": 0
+			},
+			"goal": {
+				"performed": 0
+			},
+			"personalityGroup": {
+				"performed": 0
+			},
+			"season": "2024-2025",
+			"isUserPickedTime": true,
+			"isOpen": false,
+			"investigation": false,
+			"isHomeMatch": true,
+			"visible": true,
+			"_id": {
+				"$oid": "683565464ea80ae8d49c44f6"
+			},
+			"actions": []
+		},
+		{
+			"date": {
+				"$date": "2025-06-17T18:00:00Z"
+			},
+			"homeTeam": {
+				"name": "מנצ׳סטר סיטי"
+			},
+			"awayTeam": {
+				"_id": {
+					"$oid": "677cde2afb7bb4d265208707"
+				},
+				"name": "מכבי תל אביב עודד"
+			},
+			"score": {
+				"home": 0,
+				"away": 0
+			},
+			"goal": {
+				"goalName": "אני מבשל",
+				"performed": 0
+			},
+			"personalityGroup": {
+				"tag": "מנהיג",
+				"performed": 0.2
+			},
+			"season": "2024-2025",
+			"isUserPickedTime": true,
+			"isOpen": true,
+			"investigation": true,
+			"isHomeMatch": true,
+			"visible": true,
+			"_id": {
+				"$oid": "683f093ba4fba576927ebf58"
+			},
+			"actions": [
+				{
+					"actionName": "אני מייצר תקשורת עם השחקנים",
+					"performed": 0,
+					"_id": {
+						"$oid": "6846c89df3a49919ac621594"
+					}
+				},
+				{
+					"actionName": "אני דינמי גם כשהקבוצה שלי תוקפת",
+					"performed": 0,
+					"_id": {
+						"$oid": "6846c89df3a49919ac621595"
+					}
+				},
+				{
+					"actionName": "עושה NEXT מהיר וחוזר לעמדה שלי",
+					"performed": 0,
+					"_id": {
+						"$oid": "6846c89df3a49919ac621596"
+					}
+				}
+			]
+		},
+		{
+			"date": {
+				"$date": "2025-06-18T00:00:00Z"
+			},
+			"homeTeam": {
+				"name": "מנצ׳סטר סיטי"
+			},
+			"awayTeam": {
+				"_id": {
+					"$oid": "677ce2dd2b69d9d876676dcd"
+				},
+				"name": "מכבי נתניה יוני לוי"
+			},
+			"score": {
+				"home": 0,
+				"away": 0
+			},
+			"goal": {
+				"performed": 0
+			},
+			"personalityGroup": {
+				"performed": 0
+			},
+			"season": "2024-2025",
+			"isUserPickedTime": false,
+			"isOpen": false,
+			"investigation": false,
+			"isHomeMatch": true,
+			"visible": false,
+			"_id": {
+				"$oid": "683f094ea4fba576927ebfbd"
+			},
+			"actions": []
+		},
+		{
+			"date": {
+				"$date": "2025-06-09T14:51:15.356Z"
+			},
+			"homeTeam": {
+				"name": "מנצ׳סטר סיטי"
+			},
+			"awayTeam": {
+				"_id": {
+					"$oid": "677ce2dd2b69d9d876676dcd"
+				},
+				"name": "מכבי נתניה יוני לוי"
+			},
+			"score": {
+				"home": 0,
+				"away": 0
+			},
+			"goal": {
+				"goalName": "אני מבשל"
+			},
+			"personalityGroup": {
+				"title": "ביטחון עצמי",
+				"tag": "אסרטיבי"
+			},
+			"season": "2024-2025",
+			"isUserPickedTime": false,
+			"isOpen": false,
+			"investigation": false,
+			"isHomeMatch": true,
+			"visible": true,
+			"_id": {
+				"$oid": "6846cab9f3a49919ac6217a0"
+			},
+			"actions": [
+				{
+					"actionName": "אני מייצר תקשורת עם השחקנים",
+					"performed": 0,
+					"_id": {
+						"$oid": "6846cad7f3a49919ac62183e"
+					}
+				},
+				{
+					"actionName": "מתאושש מהר אחרי טעויות",
+					"performed": 0,
+					"_id": {
+						"$oid": "6846cad7f3a49919ac62183f"
+					}
+				},
+				{
+					"actionName": "אני דוחף את קו ההגנה כשהפער עם הקישור גדל",
+					"performed": 0,
+					"_id": {
+						"$oid": "6846cad7f3a49919ac621840"
+					}
+				}
+			]
+		},
+		{
+			"date": {
+				"$date": "2025-06-09T14:51:15.356Z"
+			},
+			"homeTeam": {
+				"name": "מנצ׳סטר סיטי"
+			},
+			"awayTeam": {
+				"_id": {
+					"$oid": "677ce2dd2b69d9d876676dcd"
+				},
+				"name": "מכבי נתניה יוני לוי"
+			},
+			"score": {
+				"home": 0,
+				"away": 0
+			},
+			"goal": {
+				"performed": 0
+			},
+			"personalityGroup": {
+				"performed": 0
+			},
+			"season": "2024-2025",
+			"isUserPickedTime": false,
+			"isOpen": false,
+			"investigation": false,
+			"isHomeMatch": true,
+			"visible": true,
+			"_id": {
+				"$oid": "6846cabaf3a49919ac6217ef"
+			},
+			"actions": []
+		},
+		{
+			"date": {
+				"$date": "2025-07-01T13:25:03.319Z"
+			},
+			"homeTeam": {
+				"name": "מנצ׳סטר סיטי"
+			},
+			"awayTeam": {
+				"_id": {
+					"$oid": "67da71a7bb908fa540b07f47"
+				},
+				"name": "מכבי חיפה נוער א"
+			},
+			"score": {
+				"home": 0,
+				"away": 0
+			},
+			"goal": {
+				"goalName": "אני בולט"
+			},
+			"personalityGroup": {
+				"title": "ביטחון עצמי",
+				"tag": "אגרסיבי"
+			},
+			"season": "2024-2025",
+			"isUserPickedTime": false,
+			"isOpen": false,
+			"investigation": false,
+			"isHomeMatch": true,
+			"visible": true,
+			"_id": {
+				"$oid": "6863b78b36465364a3bfb1c4"
+			},
+			"actions": [
+				{
+					"actionName": "אני דינמי גם כשהקבוצה שלי תוקפת",
+					"performed": 0,
+					"_id": {
+						"$oid": "6863b7a936465364a3bfb21c"
+					}
+				},
+				{
+					"actionName": "לדבר עם רבעיית ההגנה",
+					"performed": 0,
+					"_id": {
+						"$oid": "6863b7a936465364a3bfb21d"
+					}
+				},
+				{
+					"actionName": "אני אוסף את השחקנים לפני פתיחת המשחק לשיחה",
+					"performed": 0,
+					"_id": {
+						"$oid": "6863b7a936465364a3bfb21e"
+					}
+				}
+			]
+		},
+		{
+			"date": {
+				"$date": "2025-07-02T08:22:55.224Z"
+			},
+			"homeTeam": {
+				"_id": {
+					"$oid": "677cde2afb7bb4d265208707"
+				},
+				"name": "מכבי תל אביב עודד"
+			},
+			"awayTeam": {
+				"name": "מנצ׳סטר סיטי"
+			},
+			"score": {
+				"home": 0,
+				"away": 0
+			},
+			"goal": {
+				"goalName": "אני בולט"
+			},
+			"personalityGroup": {
+				"title": "ביטחון עצמי",
+				"tag": "נאמן לעצמי"
+			},
+			"season": "2024-2025",
+			"isUserPickedTime": false,
+			"isOpen": false,
+			"investigation": false,
+			"isHomeMatch": true,
+			"visible": true,
+			"_id": {
+				"$oid": "6864c23c7bf6632007ee7796"
+			},
+			"actions": [
+				{
+					"actionName": "אומר לעצמי את מילת הקוד שלי",
+					"performed": 0,
+					"_id": {
+						"$oid": "6864c2617bf6632007ee77fe"
+					}
+				},
+				{
+					"actionName": "אני אוסף את השחקנים לפני פתיחת המשחק לשיחה",
+					"performed": 0,
+					"_id": {
+						"$oid": "6864c2617bf6632007ee77ff"
+					}
+				},
+				{
+					"actionName": "אני דינמי גם כשהקבוצה שלי תוקפת",
+					"performed": 0,
+					"_id": {
+						"$oid": "6864c2617bf6632007ee7800"
+					}
+				}
+			]
+		}
+	],
+	"trainings": [],
+	"encouragementSystemMessages": [],
+	"createdAt": {
+		"$date": "2025-04-10T15:20:11.052Z"
+	},
+	"__v": 3,
+	"firstName": "בן ",
+	"lastName": "עזריה ",
+	"league": null,
+	"nickName": "זריזי",
+	"playerNumber": "4",
+	"position": "RB",
+	"selectedTeamColor": {
+		"hex1": "#4CAF50",
+		"hex2": "#FFFFFF",
+		"hex3": "#FFFFFF"
+	},
+	"strongLeg": "right",
+	"team": null,
+	"userLeague": {
+		"name": "ליגת האלופות "
+	},
+	"userTeam": {
+		"name": "מנצ׳סטר סיטי"
+	},
+	"breakOutSeason": "אני מסיים את העונה עם 20 שערים",
+	"theDream": "   ב-2034 אני זוכה בכדור הזהב. ",
+	"mentalTrainingProgress": [
+		{
+			"trainingProgramId": {
+				"$oid": "6863d549020e131bf1185575"
+			},
+			"enrolledAt": {
+				"$date": "2025-07-02T05:18:27.875Z"
+			},
+			"lessonProgress": [
+				{
+					"lessonId": {
+						"$oid": "6863d54a020e131bf1185577"
+					},
+					"startedAt": {
+						"$date": "2025-07-02T05:18:27.876Z"
+					},
+					"watchTime": 0,
+					"progressPercentage": 0,
+					"completed": false,
+					"_id": {
+						"$oid": "6864c1237bf6632007ee7236"
+					}
+				},
+				{
+					"lessonId": {
+						"$oid": "6863d54a020e131bf1185579"
+					},
+					"startedAt": {
+						"$date": "2025-07-02T05:18:49.399Z"
+					},
+					"watchTime": 0,
+					"progressPercentage": 0,
+					"completed": false,
+					"_id": {
+						"$oid": "6864c1397bf6632007ee72cd"
+					}
+				},
+				{
+					"lessonId": {
+						"$oid": "6863d54a020e131bf118557b"
+					},
+					"startedAt": {
+						"$date": "2025-07-02T05:19:29.387Z"
+					},
+					"watchTime": 0,
+					"progressPercentage": 0,
+					"completed": false,
+					"_id": {
+						"$oid": "6864c1617bf6632007ee74c5"
+					}
+				}
+			],
+			"exerciseResponses": [],
+			"overallProgress": 0,
+			"totalWatchTime": 0,
+			"lastAccessed": {
+				"$date": "2025-07-02T05:19:43.231Z"
+			},
+			"completed": false,
+			"earnedPoints": 0,
+			"_id": {
+				"$oid": "6864c1237bf6632007ee7235"
+			},
+			"currentLesson": {
+				"$oid": "6863d54a020e131bf118557b"
+			}
+		}
+	]
+},
+{
+	"_id": {
+		"$oid": "67f7f911734b48463a22f4f9"
+	},
+	"email": "studbino@gmail.com",
+	"uid": "HIBRAPjStIgwTGZ9SWgZpcObKT63",
+	"subscriptionType": "basic",
+	"totalScore": 0,
+	"totalWins": 0,
+	"setProfileComplete": true,
+	"setGoalAndProfileComplete": true,
+	"currentStatus": [
+		{
+			"title": "preasure",
+			"rating": 2,
+			"_id": {
+				"$oid": "67f7f948734b48463a22f506"
+			}
+		},
+		{
+			"title": "confidence",
+			"rating": 5,
+			"_id": {
+				"$oid": "67f7f948734b48463a22f507"
+			}
+		}
+	],
+	"matches": [
+		{
+			"date": {
+				"$date": "2025-04-11T00:00:00Z"
+			},
+			"homeTeam": {
+				"_id": {
+					"$oid": "67da71a7bb908fa540b07f47"
+				},
+				"name": "מכבי חיפה נוער א"
+			},
+			"awayTeam": {
+				"_id": {
+					"$oid": "67da721bbb908fa540b07f4e"
+				},
+				"name": "הפועל באר שבע נוער ג"
+			},
+			"score": {
+				"home": 0,
+				"away": 0
+			},
+			"goal": {
+				"performed": 0
+			},
+			"personalityGroup": {
+				"performed": 0
+			},
+			"season": "2024-2025",
+			"isOpen": true,
+			"investigation": false,
+			"isHomeMatch": true,
+			"visible": true,
+			"_id": {
+				"$oid": "67f7f97f734b48463a22f520"
+			},
+			"actions": []
+		}
+	],
+	"trainings": [],
+	"encouragementSystemMessages": [],
+	"createdAt": {
+		"$date": "2025-04-10T17:00:01.583Z"
+	},
+	"__v": 0,
+	"firstName": "עמיתו",
+	"lastName": "טסטו",
+	"league": {
+		"$oid": "6783be0effbe4d42c120ea4e"
+	},
+	"nickName": "",
+	"playerNumber": "24",
+	"position": "ST",
+	"selectedTeamColor": {
+		"hex1": "#36FA00",
+		"hex2": "#FFFFFF",
+		"hex3": "#C1B9B9"
+	},
+	"strongLeg": "left",
+	"team": {
+		"$oid": "67da71a7bb908fa540b07f47"
+	},
+	"userLeague": null,
+	"userTeam": null,
+	"breakOutSeason": "משהוט",
+	"theDream": "משהו"
+},
+{
+	"_id": {
+		"$oid": "682302018cfe2fef8c59d0a0"
+	},
+	"email": "mtndbs@gmail.com",
+	"uid": "LtfNfBTSHIS9G51bCD575Xx5Vl53",
+	"subscriptionType": "basic",
+	"totalScore": 0,
+	"totalWins": 0,
+	"setProfileComplete": false,
+	"setGoalAndProfileComplete": false,
+	"currentStatus": [],
+	"matches": [],
+	"trainings": [],
+	"encouragementSystemMessages": [],
+	"createdAt": {
+		"$date": "2025-05-13T08:25:37.68Z"
+	},
+	"__v": 0
+}]
+

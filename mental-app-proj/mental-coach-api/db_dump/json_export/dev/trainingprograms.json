@@ -1,0 +1,52 @@
+[{
+	"_id": {
+		"$oid": "6863d549020e131bf1185575"
+	},
+	"createdAt": {
+		"$date": "2025-01-15T10:00:00Z"
+	},
+	"updatedAt": {
+		"$date": "2025-07-02T04:18:15.865Z"
+	},
+	"accessRules": {
+		"requireSequential": true,
+		"subscriptionTypes": [
+			"advanced",
+			"premium"
+		],
+		"specificUsers": []
+	},
+	"type": "course",
+	"title": "מנטליות של ווינר I - המעטפת המנטלית",
+	"description": "תוכנית אימון מנטלי מקיפה לכדורגלנים צעירים ומקצועיים. התוכנית מלמדת כלים מנטליים מתקדמים להתמודדות עם לחץ, בניית ביטחון עצמי, ופיתוח מנטליות מנצחת. 24 שיעורים עם תרגילים אינטראקטיביים ומשימות אישיות המבוססים על שיטתו של איתן בן אליהו.",
+	"category": "mental",
+	"difficulty": "intermediate",
+	"estimatedDuration": 720,
+	"objectives": [
+		"פיתוח חזון אישי וקביעת מטרות ברורות ככדורגלן",
+		"בניית מנטליות מנצחת והתמודדות עם לחץ",
+		"למידת טכניקות הכנה מנטלית למשחקים",
+		"התמודדות עם פחדים ודאגות מדעת אחרים",
+		"פיתוח כלים להתגברות על טעויות והפסדים"
+	],
+	"prerequisites": [],
+	"targetAudience": "כדורגלנים בגילאי 13-18, שחקנים חובבים ומקצועיים",
+	"instructor": {
+		"$oid": "67dc0618e3fc076b756177f8"
+	},
+	"totalLessons": 24,
+	"totalEnrolled": 0,
+	"averageRating": 0,
+	"isPublished": true,
+	"publishedAt": {
+		"$date": "2025-01-15T10:00:00Z"
+	},
+	"createdBy": {
+		"$oid": "67dc0618e3fc076b756177f8"
+	},
+	"lastModifiedBy": {
+		"$oid": "67f6aa95e681c7786f75806e"
+	},
+	"__v": 0
+}]
+

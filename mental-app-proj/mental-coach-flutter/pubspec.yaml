@@ -1,0 +1,106 @@
+name: mental_coach_flutter_firebase
+description: "המאמן המנטלי - אפליקציית אימון מנטלי לכדורגל"
+publish_to: "none"
+version: 1.1.0+14
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.9.0
+  firebase_auth: ^5.3.4
+  flutter_localizations:
+    sdk: flutter
+  google_sign_in: ^6.2.2
+  flutter_colorpicker: ^1.1.0
+  video_player: ^2.9.2
+  audioplayers: ^6.1.0
+  http: ^1.3.0
+  provider: ^6.1.2
+  flutter_svg: ^2.0.17
+  vector_graphics: ^1.1.16
+  intl: ^0.20.2
+  color_simp: ^1.0.1
+  go_router: ^14.7.2
+  google_fonts: ^6.2.1
+  dotted_border: ^2.1.0
+  firebase_messaging: ^15.2.4
+  flutter_local_notifications: ^19.0.0
+  webview_flutter: ^4.10.0
+  device_info_plus: ^11.3.3
+  package_info_plus: ^8.0.0
+  app_links: ^6.4.0
+  url_launcher: ^6.3.0
+  flutter_web_plugins:
+    sdk: flutter
+  js: ^0.7.1 
+  pinput: ^5.0.0
+  shared_preferences: ^2.5.3
+  firebase_app_check: ^0.3.2+10
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter_launcher_icons:
+  ios: true
+  android: "mentall_app_logo"
+  image_path: "icons/mentall_app_logo.png"
+  remove_alpha_ios: true
+flutter:
+  fonts:
+    - family: "Barlev"
+      fonts:
+        - asset: fonts/barlev-regular-aaa.otf
+        - asset: fonts/barlev-bold-aaa.otf
+        - asset: fonts/barlev-light-aaa.otf
+  uses-material-design: true
+  assets:
+    - images/
+    - icons/
+    - fonts/
+    - version.json
+    - images/apple.png
+    - images/school.png
+    - images/apple1.png
+    - images/apple-sm.png
+    - images/google.png
+    - images/google-sm.png
+    - images/screenPic.png
+    - images/eitan.png
+    - images/education_icon.png
+    - images/shirt.png
+    - images/match_banner.png
+    - images/match_banner2.png
+    - images/soccer-match-dark.png
+    - images/soccer-sunset.png
+    - icons/learn-icon.png
+    - icons/player-icon.png
+    - icons/brain-icon.png
+    - icons/dashboard-icon.png
+    - icons/active-dashboard-icon.png
+    - icons/profile-icon.svg
+    - icons/Bitmap.svg
+    - icons/camera.svg
+    - icons/games-calendar.svg
+    - icons/Vector-dream.svg
+    - icons/Vector-dream3.svg
+    - icons/icons8-student_male.svg
+    - icons/icons8-trophy 1.svg
+    - icons/icons8-trophy 2.svg
+    - icons/menu_vertical.svg
+    - icons/student.svg
+    - icons/target.svg
+    - icons/arrow-down-icon.png
+    - icons/trash-icon.png
+    - icons/torphy-icon.png
+    - icons/close-icon.png
+    - icons/leafs-icon.png
+    - icons/cup-icon.png
+    - icons/info-icon.png
+    - icons/file-info-icon.png
+    - icons/wreath-icon.png
+    - icons/certificate-icon.png

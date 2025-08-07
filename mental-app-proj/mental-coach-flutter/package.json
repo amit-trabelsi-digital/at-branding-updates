@@ -1,0 +1,25 @@
+{
+  "name": "mental-coach-flutter-web",
+  "version": "1.0.0",
+  "description": "Mental Coach Flutter Web Deployment",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server build/web -p 8080 -c-1",
+    "serve": "http-server build/web -p 8080",
+    "build": "flutter build web --release",
+    "build:dev": "flutter build web --profile",
+    "clean": "flutter clean",
+    "test": "flutter test"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "flutter",
+    "web",
+    "mental-coach"
+  ],
+  "author": "Mental Coach Team",
+  "license": "MIT"
+}

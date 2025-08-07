@@ -1,0 +1,200 @@
+[{
+	"_id": {
+		"$oid": "67bb200c926ed2fc4a4e5b54"
+	},
+	"user": {
+		"$oid": "679b39180bf2aa7abe0738b2"
+	},
+	"match": {
+		"$oid": "67b5ca6c93a3803a00716994"
+	},
+	"actions": [
+		{
+			"actionName": "לדבר עם רבעיית ההגנה",
+			"performed": false,
+			"_id": {
+				"$oid": "67bb200c926ed2fc4a4e5b55"
+			}
+		},
+		{
+			"actionName": "אני מדבר ומכווין שחקנים כמו זוג עיניים נוספות: ״סתובב״, ״אתה פנוי״, ״תיזהר״, ״הוא פנוי״.",
+			"performed": false,
+			"_id": {
+				"$oid": "67bb200c926ed2fc4a4e5b56"
+			}
+		}
+	],
+	"goal": {
+		"performed": false
+	},
+	"personallityGroup": {
+		"title": "ביטחון עצמי",
+		"tag": "אסרטיבי"
+	},
+	"createdAt": {
+		"$date": "2025-02-23T13:18:04.539Z"
+	},
+	"updatedAt": {
+		"$date": "2025-02-23T13:18:04.539Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "67bc2a69da6868c7819fa9ed"
+	},
+	"user": {
+		"$oid": "679b39180bf2aa7abe0738b2"
+	},
+	"match": {
+		"$oid": "67b5ca6c93a3803a00716994"
+	},
+	"actions": [
+		{
+			"actionName": "לדבר עם רבעיית ההגנה",
+			"performed": false,
+			"_id": {
+				"$oid": "67bc2a69da6868c7819fa9ee"
+			}
+		}
+	],
+	"goal": {
+		"performed": false
+	},
+	"personallityGroup": {
+		"title": "",
+		"tag": "עוצמתי"
+	},
+	"createdAt": {
+		"$date": "2025-02-24T08:14:33.672Z"
+	},
+	"updatedAt": {
+		"$date": "2025-02-24T08:14:33.672Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "67bc3a35da6868c7819fab4f"
+	},
+	"user": {
+		"$oid": "679b39180bf2aa7abe0738b2"
+	},
+	"match": {
+		"$oid": "67b5ca6c93a3803a00716994"
+	},
+	"actions": [
+		{
+			"actionName": "אני מדבר",
+			"performed": false,
+			"_id": {
+				"$oid": "67bc3a35da6868c7819fab50"
+			}
+		}
+	],
+	"goal": {
+		"performed": false
+	},
+	"personallityGroup": {
+		"title": "",
+		"tag": "עוצמתי"
+	},
+	"createdAt": {
+		"$date": "2025-02-24T09:21:57.062Z"
+	},
+	"updatedAt": {
+		"$date": "2025-02-24T09:21:57.062Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "67bc424eda6868c7819fad79"
+	},
+	"user": {
+		"$oid": "679b39180bf2aa7abe0738b2"
+	},
+	"match": {
+		"$oid": "67b5ca6c93a3803a00716994"
+	},
+	"actions": [
+		{
+			"actionName": "עושה NEXT מהיר אחרי טעות",
+			"performed": false,
+			"_id": {
+				"$oid": "67bc424eda6868c7819fad7a"
+			}
+		}
+	],
+	"goal": {
+		"performed": false
+	},
+	"personallityGroup": {
+		"title": "",
+		"tag": "עוצמתי"
+	},
+	"createdAt": {
+		"$date": "2025-02-24T09:56:30.719Z"
+	},
+	"updatedAt": {
+		"$date": "2025-02-24T09:56:30.719Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "67befd67652b72d73ac8cbb3"
+	},
+	"user": {
+		"$oid": "679b39180bf2aa7abe0738b2"
+	},
+	"match": {
+		"$oid": "67b5c95293a3803a007168de"
+	},
+	"actions": [
+		{
+			"actionName": "יוצא לכדור גובה בביטחון",
+			"performed": false,
+			"_id": {
+				"$oid": "67befd67652b72d73ac8cbb4"
+			}
+		}
+	],
+	"goal": {
+		"performed": false
+	},
+	"personallityGroup": {
+		"title": "מפוקס",
+		"tag": "מפוקס"
+	},
+	"createdAt": {
+		"$date": "2025-02-26T11:39:19.559Z"
+	},
+	"updatedAt": {
+		"$date": "2025-02-26T11:39:19.559Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "67c9539b5447b4e2f0e022fa"
+	},
+	"user": {
+		"$oid": "679b39180bf2aa7abe0738b2"
+	},
+	"match": {
+		"$oid": "67c9539b5447b4e2f0e022f8"
+	},
+	"goal": {
+		"performed": false
+	},
+	"actions": [],
+	"createdAt": {
+		"$date": "2025-03-06T07:49:47.816Z"
+	},
+	"updatedAt": {
+		"$date": "2025-03-06T07:49:47.816Z"
+	},
+	"__v": 0
+}]
+

@@ -1,0 +1,55 @@
+# Flutter Web - Railway Production Build
+FROM ghcr.io/cirruslabs/flutter:stable AS build
+
+WORKDIR /app
+
+# Build arguments
+ARG API_URL=https://mental-coach-api.up.railway.app/api
+ARG FLUTTER_ENV=production
+ARG FIREBASE_WEB_API_KEY=""
+ARG FIREBASE_WEB_AUTH_DOMAIN=""
+ARG FIREBASE_WEB_PROJECT_ID=""
+ARG FIREBASE_WEB_STORAGE_BUCKET=""
+ARG FIREBASE_WEB_MESSAGING_SENDER_ID=""
+ARG FIREBASE_WEB_APP_ID=""
+ARG RECAPTCHA_SITE_KEY=""
+
+# Copy and get dependencies
+COPY pubspec.* ./
+RUN flutter pub get
+
+# Copy all project files
+COPY . .
+
+# Build for web with environment variables
+RUN flutter build web --release \
+    --dart-define=FLUTTER_ENV=$FLUTTER_ENV \
+    --dart-define=API_URL=$API_URL \
+    --dart-define=FIREBASE_WEB_API_KEY=$FIREBASE_WEB_API_KEY \
+    --dart-define=FIREBASE_WEB_AUTH_DOMAIN=$FIREBASE_WEB_AUTH_DOMAIN \
+    --dart-define=FIREBASE_WEB_PROJECT_ID=$FIREBASE_WEB_PROJECT_ID \
+    --dart-define=FIREBASE_WEB_STORAGE_BUCKET=$FIREBASE_WEB_STORAGE_BUCKET \
+    --dart-define=FIREBASE_WEB_MESSAGING_SENDER_ID=$FIREBASE_WEB_MESSAGING_SENDER_ID \
+    --dart-define=FIREBASE_WEB_APP_ID=$FIREBASE_WEB_APP_ID \
+    --dart-define=RECAPTCHA_SITE_KEY=$RECAPTCHA_SITE_KEY
+
+# Nginx stage
+FROM nginx:alpine
+
+# Copy build from previous stage
+COPY --from=build /app/build/web /usr/share/nginx/html
+
+# Copy nginx configuration
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
+# Copy assets and images
+COPY --from=build /app/assets /usr/share/nginx/html/assets 2>/dev/null || true
+COPY --from=build /app/images /usr/share/nginx/html/images 2>/dev/null || true
+COPY --from=build /app/icons /usr/share/nginx/html/icons 2>/dev/null || true
+
+# Railway uses PORT env variable
+ENV PORT=80
+EXPOSE 80
+
+# Start nginx
+CMD ["nginx", "-g", "daemon off;"]

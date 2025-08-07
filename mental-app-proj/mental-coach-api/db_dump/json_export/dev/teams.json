@@ -1,0 +1,101 @@
+[{
+	"_id": {
+		"$oid": "677cde2afb7bb4d265208707"
+	},
+	"name": "מכבי תל אביב עודד",
+	"city": "תל אביב",
+	"foundedYear": 232,
+	"players": [],
+	"__v": 0,
+	"updatedAt": {
+		"$date": "2025-03-19T14:20:39.426Z"
+	},
+	"league": {
+		"$oid": "677cf57ea17baa07b47557c4"
+	},
+	"hex1": "#ffdd00",
+	"hex2": "#3504e7",
+	"hex3": "#ffffff"
+},
+{
+	"_id": {
+		"$oid": "677ce2dd2b69d9d876676dcd"
+	},
+	"name": "מכבי נתניה יוני לוי",
+	"championshipsWon": 15,
+	"users": [],
+	"__v": 0,
+	"city": "נתניה",
+	"updatedAt": {
+		"$date": "2025-03-19T14:20:39.426Z"
+	},
+	"league": {
+		"$oid": "677cf57ea17baa07b47557c4"
+	},
+	"hex1": "#fbff00",
+	"hex2": "#000000",
+	"hex3": null
+},
+{
+	"_id": {
+		"$oid": "67da71a7bb908fa540b07f47"
+	},
+	"name": "מכבי חיפה נוער א",
+	"users": [],
+	"createdAt": {
+		"$date": "2025-03-19T07:26:31.498Z"
+	},
+	"updatedAt": {
+		"$date": "2025-03-19T14:20:39.426Z"
+	},
+	"__v": 0,
+	"city": "חיפה",
+	"hex1": "#36fa00",
+	"hex2": "#ffffff",
+	"hex3": "#c1b9b9",
+	"league": {
+		"$oid": "677cf57ea17baa07b47557c4"
+	}
+},
+{
+	"_id": {
+		"$oid": "67da721bbb908fa540b07f4e"
+	},
+	"name": "הפועל באר שבע נוער ג",
+	"users": [],
+	"createdAt": {
+		"$date": "2025-03-19T07:28:27.272Z"
+	},
+	"updatedAt": {
+		"$date": "2025-03-19T14:20:39.426Z"
+	},
+	"__v": 0,
+	"city": "חיפה",
+	"hex1": "#f82020",
+	"hex2": "#ad9f9f",
+	"hex3": null,
+	"league": {
+		"$oid": "677cf57ea17baa07b47557c4"
+	}
+},
+{
+	"_id": {
+		"$oid": "67da731a8188ba6f24ea1709"
+	},
+	"name": "מכבי פתח תיקווה נוער ג",
+	"city": "פתח תקווה",
+	"hex1": "#3d44ff",
+	"hex2": "#ffffff",
+	"users": [],
+	"createdAt": {
+		"$date": "2025-03-19T07:32:42.175Z"
+	},
+	"updatedAt": {
+		"$date": "2025-03-19T14:20:39.426Z"
+	},
+	"__v": 0,
+	"league": {
+		"$oid": "677cf57ea17baa07b47557c4"
+	}
+}]
+

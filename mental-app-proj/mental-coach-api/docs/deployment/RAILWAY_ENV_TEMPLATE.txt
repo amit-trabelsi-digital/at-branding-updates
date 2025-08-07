@@ -1,0 +1,36 @@
+# Railway Environment Variables Template
+# Copy these to Railway Dashboard > Variables
+
+# ===== DATABASE =====
+DATABASE=mongodb+srv://username:password@cluster.mongodb.net/mental-coach?retryWrites=true&w=majority
+DB_NAME=mental-coach
+
+# ===== SERVER CONFIG =====
+PORT=3000
+NODE_ENV=production
+
+# ===== FIREBASE =====
+# Get from Firebase Console > Project Settings > Service Accounts > Generate New Private Key
+# IMPORTANT: Copy the entire JSON as a single line string
+FIREBASE_SERVICE_ACCOUNT={"type":"service_account","project_id":"mental-coach-xxxxx","private_key_id":"xxxxx","private_key":"-----BEGIN PRIVATE KEY-----\nxxxxx\n-----END PRIVATE KEY-----\n","client_email":"firebase-adminsdk-xxxxx@mental-coach-xxxxx.iam.gserviceaccount.com","client_id":"xxxxx","auth_uri":"https://accounts.google.com/o/oauth2/auth","token_uri":"https://oauth2.googleapis.com/token","auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs","client_x509_cert_url":"https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-xxxxx%40mental-coach-xxxxx.iam.gserviceaccount.com"}
+
+# ===== SENDGRID =====
+SENDGRID_API_KEY=SG.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+EMAIL_FROM=noreply@mentalcoach.co.il
+
+# ===== TWILIO =====
+TWILIO_ACCOUNT_SID=ACcc378679xxxxxxxxxxxxxxxxxxxxx
+TWILIO_AUTH_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+TWILIO_PHONE_NUMBER=+972535666773
+
+# ===== FRONTEND URLs =====
+FRONTEND_URL=https://mental-coach.web.app
+ADMIN_URL=https://mental-coach-admin.web.app
+
+# ===== OPTIONAL: AI SERVICES =====
+# ANTHROPIC_API_KEY=sk-ant-xxxxx
+# PERPLEXITY_API_KEY=pplx-xxxxx
+# OPENAI_API_KEY=sk-xxxxx
+
+# ===== REDIS (if using) =====
+# REDIS_URL=redis://default:password@redis.railway.internal:6379

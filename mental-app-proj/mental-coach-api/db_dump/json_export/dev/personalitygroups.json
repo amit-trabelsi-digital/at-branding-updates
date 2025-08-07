@@ -1,0 +1,211 @@
+[{
+	"_id": {
+		"$oid": "67b463e7c1de4abfb406f305"
+	},
+	"title": "מנהיג",
+	"tags": [
+		{
+			"label": "כריזמטי",
+			"value": "d83d6a76d7fd7c4950c5107fd24b4c69",
+			"_id": "67b463e7c1de4abfb406f306"
+		},
+		{
+			"label": "מנהיג",
+			"value": "6675a9eec1503087563182639cdc9140",
+			"_id": "67b463e7c1de4abfb406f307"
+		},
+		{
+			"label": "מוביל",
+			"value": "e0b2b4c3a0dac2868d779cf37beb7509",
+			"_id": "67b463e7c1de4abfb406f308"
+		},
+		{
+			"label": "בעל אמונה",
+			"value": "0a64c9d421d367e1b03693e6c4949010",
+			"_id": "67b463e7c1de4abfb406f309"
+		},
+		{
+			"label": "מעורר השראה",
+			"value": "cc3cd34406882d01cc9dada74c8ef86f",
+			"_id": "67b4646ec1de4abfb406f35c"
+		},
+		{
+			"label": "עוצמתי",
+			"value": "943c0156c1882582b8bfb1cbb5f1af61",
+			"_id": "67b4646ec1de4abfb406f35d"
+		},
+		{
+			"label": "מחוייב",
+			"value": "77d1e3e293af63ebd48b9d190a3841a2",
+			"_id": "67b4646ec1de4abfb406f35e"
+		},
+		{
+			"label": "אמיץ",
+			"value": "1302dc93c3ad7bda333ede0b57dbc98a",
+			"_id": "67b4646ec1de4abfb406f35f"
+		},
+		{
+			"label": "מדבר",
+			"value": "fb619db021558c4bed363dbfdf0708ec",
+			"_id": "67b4646ec1de4abfb406f360"
+		},
+		{
+			"label": "אגרסיבי",
+			"value": "2aaf6cf56b4fb4fecf379525646eab59",
+			"_id": "67b4646ec1de4abfb406f361"
+		},
+		{
+			"label": "אחראי",
+			"value": "df41480f5c30a51791c1b9fc7d8ae7ee",
+			"_id": "67b4646ec1de4abfb406f362"
+		}
+	],
+	"createdAt": {
+		"$date": "2025-02-18T10:41:43.881Z"
+	},
+	"updatedAt": {
+		"$date": "2025-02-18T10:43:58.342Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "678ce32b62214acc7f1005a0"
+	},
+	"title": "ביטחון עצמי",
+	"tags": [
+		{
+			"label": "אסרטיבי",
+			"value": "a76895ff2161bce93527a2180187325d",
+			"_id": "67b43ed2c1de4abfb406f169"
+		},
+		{
+			"label": "עוצמתי",
+			"value": "943c0156c1882582b8bfb1cbb5f1af61",
+			"_id": "67b43ed2c1de4abfb406f16a"
+		},
+		{
+			"label": "אמיץ",
+			"value": "1302dc93c3ad7bda333ede0b57dbc98a",
+			"_id": "67b43ed2c1de4abfb406f16b"
+		},
+		{
+			"label": "סומך",
+			"value": "d5a37a84a84ca2a1ab1b66fe712aaa41",
+			"_id": "67b43ed2c1de4abfb406f16c"
+		},
+		{
+			"label": "אגרסיבי",
+			"value": "2aaf6cf56b4fb4fecf379525646eab59",
+			"_id": "67b43ed2c1de4abfb406f16d"
+		},
+		{
+			"label": "בטוח",
+			"value": "ae3f3ab0a19271b373fcc35ec2b4a0f9",
+			"_id": "67b43ed2c1de4abfb406f16e"
+		},
+		{
+			"label": "מאמין",
+			"value": "6136ac978a609808d843b2a933700d0b",
+			"_id": "67b43ed2c1de4abfb406f16f"
+		},
+		{
+			"label": "נאמן לעצמי",
+			"value": "1b6c6597f0888af3ff31c861c28798ef",
+			"_id": "67b46322c1de4abfb406f2b3"
+		}
+	],
+	"createdAt": {
+		"$date": "2025-01-19T11:34:03.661Z"
+	},
+	"updatedAt": {
+		"$date": "2025-02-18T10:38:26.087Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "67b464a5c1de4abfb406f38a"
+	},
+	"title": "משוחרר",
+	"tags": [
+		{
+			"label": "זורם",
+			"value": "abab7644a585d770e5eb40274142623a",
+			"_id": "67b464a5c1de4abfb406f38b"
+		},
+		{
+			"label": "חופשי",
+			"value": "9931cebc468db588cedc775a475b3567",
+			"_id": "67b464a5c1de4abfb406f38c"
+		},
+		{
+			"label": "חי",
+			"value": "2465c9e90900e7920975ba8eacf307ad",
+			"_id": "67b464a5c1de4abfb406f38d"
+		},
+		{
+			"label": "חיובי",
+			"value": "a9085db1609801ee428be0238a99242a",
+			"_id": "67b464a5c1de4abfb406f38e"
+		}
+	],
+	"createdAt": {
+		"$date": "2025-02-18T10:44:53.488Z"
+	},
+	"updatedAt": {
+		"$date": "2025-02-18T10:44:53.488Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "67b463bbc1de4abfb406f2ec"
+	},
+	"title": "מפוקס",
+	"tags": [
+		{
+			"label": "מפוקס",
+			"value": "a42dd145116956aedc9e0b36aa51de6b",
+			"_id": "67b463bbc1de4abfb406f2ed"
+		},
+		{
+			"label": "ממוקד",
+			"value": "4b484c0de274a606b1f5d76a367c8a56",
+			"_id": "67b463bbc1de4abfb406f2ee"
+		},
+		{
+			"label": "מחוייב",
+			"value": "77d1e3e293af63ebd48b9d190a3841a2",
+			"_id": "67b463bbc1de4abfb406f2ef"
+		},
+		{
+			"label": "אקטיבי",
+			"value": "b071200b074e2a81801854a0dd4f91e9",
+			"_id": "67b463bbc1de4abfb406f2f0"
+		},
+		{
+			"label": "עושה",
+			"value": "9106a44918688bf6cfb6ae2ff0d4f931",
+			"_id": "67b463bbc1de4abfb406f2f1"
+		},
+		{
+			"label": "רגוע",
+			"value": "9c18e4edf976adf3a7ba161f9e46f4ed",
+			"_id": "67b463bbc1de4abfb406f2f2"
+		},
+		{
+			"label": "נוכחח",
+			"value": "c6dc53a3fda1bd54cc4ae226a8dd2bbc",
+			"_id": "67b463bbc1de4abfb406f2f3"
+		}
+	],
+	"createdAt": {
+		"$date": "2025-02-18T10:40:59.851Z"
+	},
+	"updatedAt": {
+		"$date": "2025-02-18T10:40:59.851Z"
+	},
+	"__v": 0
+}]
+

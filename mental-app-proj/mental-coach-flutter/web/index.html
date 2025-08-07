@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="המאמן המנטלי - אפליקציית אימון מנטלי מתקדמת">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=480px, user-scalable=no">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="המאמן המנטלי">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>המאמן המנטלי | איתן עזריה</title>
+  <link rel="manifest" href="manifest.json">
+  
+  <!-- Google Sign-In -->
+  <meta name="google-signin-client_id" content="922833932086-6c678rfhovn21taj03o1nda58lt8d787.apps.googleusercontent.com">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #f5f5f5;
+      direction: rtl;
+    }
+    
+    #loading {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      z-index: 9999;
+    }
+    
+    .spinner {
+      width: 50px;
+      height: 50px;
+      border: 3px solid #f3f3f3;
+      border-top: 3px solid #3498db;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+    
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    
+    .loading-logo {
+      width: 150px;
+      height: 150px;
+      animation: breathe 2.5s ease-in-out infinite;
+    }
+
+    @keyframes breathe {
+      0%, 100% {
+        transform: scale(0.95);
+        opacity: 0.8;
+      }
+      50% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+    
+    .loading-text {
+      margin-top: 20px;
+      color: #333;
+      font-size: 18px;
+    }
+  </style>
+
+  <!-- Google Sign-In -->
+  <meta name="google-signin-client_id" content="922833932086-nej9obet7pb8ubgrcqqhkueu9o9n5m19.apps.googleusercontent.com">
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  
+  <!-- Firebase App (the core Firebase SDK) -->
+  <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-messaging-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-storage-compat.js"></script>
+</head>
+<body>
+  <!-- Loading indicator -->
+  <div id="loading">
+    <img src="favicon.png" alt="Loading Logo" class="loading-logo">
+    <div class="loading-text">מתחמם על הקו...</div>
+  </div>
+
+  <!-- reCAPTCHA container for phone authentication -->
+  <div id="recaptcha-container"></div>
+
+  <script>
+      // Set App Check debug token for development
+  if (window.location.hostname === 'localhost') {
+    self.FIREBASE_APPCHECK_DEBUG_TOKEN = '0A50B655-52D5-4C46-A6F2-A3671CD706EB';
+    console.log('App Check debug token set for localhost');
+  }
+
+    // Initialize Firebase configuration
+    window.firebaseConfig = {
+      apiKey: "AIzaSyCGFsjkMyMiNUFITHqcEopLNPfaqJ--pNk",
+      authDomain: "mental-coach-c7f94.firebaseapp.com",
+      projectId: "mental-coach-c7f94",
+      storageBucket: "mental-coach-c7f94.firebasestorage.app",
+      messagingSenderId: "922833932086",
+      appId: "1:922833932086:web:66ca24452c3776d9cfed97",
+      measurementId: "G-Q3Q73TFEHN"
+    };
+    
+    console.log('Firebase config loaded:', window.firebaseConfig);
+
+    // Initialize Firebase
+    if (typeof firebase !== 'undefined') {
+      firebase.initializeApp(window.firebaseConfig);
+      console.log('Firebase initialized successfully');
+
+      // Initialize reCAPTCHA for phone authentication
+      window.recaptchaVerifier = new firebase.auth.RecaptchaVerifier('recaptcha-container', {
+        'size': 'invisible',
+        'callback': (response) => {
+          console.log('reCAPTCHA solved:', response);
+        },
+        'expired-callback': () => {
+          console.log('reCAPTCHA expired');
+        }
+      });
+      
+      // Make it available globally for Flutter
+      window.recaptchaVerifier.render().then((widgetId) => {
+        window.recaptchaWidgetId = widgetId;
+        console.log('reCAPTCHA rendered with widget ID:', widgetId);
+      });
+
+      // Log auth settings
+      firebase.auth().onAuthStateChanged(function(user) {
+        console.log('Auth state changed:', user ? 'User logged in' : 'No user');
+      });
+    } else {
+      console.error('Firebase SDK not loaded!');
+    }
+
+    // Remove loading indicator when Flutter is ready
+    window.addEventListener('flutter-first-frame', function () {
+      let loadingElement = document.getElementById('loading');
+      if (loadingElement) {
+        loadingElement.remove();
+      }
+    });
+  </script>
+
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

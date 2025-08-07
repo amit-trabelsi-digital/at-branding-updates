@@ -1,0 +1,17 @@
+[{
+	"_id": {
+		"$oid": "6783bb69ffbe4d42c120ea1a"
+	},
+	"title": "מסר חשוב במסך הרשמה",
+	"message": "קובץ אודיו",
+	"dataLink": "http://localhost:5173/dashboard/push-messages",
+	"readMoreLink": "http://localhost:5173/dashboard/push-messages",
+	"sent": false,
+	"notes": "sdsds",
+	"createdAt": {
+		"$date": "2025-01-12T12:54:01.413Z"
+	},
+	"__v": 0,
+	"appearedIn": "registeration"
+}]
+

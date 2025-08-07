@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- A solid background color (e.g., white) -->
+    <item android:drawable="@android:color/white" />
+    <!-- Optional: Add a centered logo or image -->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@mipmap/mentall_app_logo" />
+    </item>
+</layer-list>

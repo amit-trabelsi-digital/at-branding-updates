@@ -1,0 +1,1649 @@
+[{
+	"_id": {
+		"$oid": "67b5b19e236a624bb7fbb83e"
+	},
+	"goalName": "אני כובש",
+	"positions": [
+		{
+			"value": "CB",
+			"label": "בלם"
+		},
+		{
+			"value": "LB",
+			"label": "מגן שמאלי"
+		},
+		{
+			"value": "RB",
+			"label": "מגן ימני"
+		},
+		{
+			"value": "LWB",
+			"label": "מגן שמאלי תוקף"
+		},
+		{
+			"value": "RWB",
+			"label": "מגן ימני תוקף"
+		},
+		{
+			"value": "CDM",
+			"label": "קשר אחורי"
+		},
+		{
+			"value": "CM",
+			"label": "קשר מרכזי"
+		},
+		{
+			"value": "CAM",
+			"label": "קשר התקפי"
+		},
+		{
+			"value": "LM",
+			"label": "קשר שמאלי"
+		},
+		{
+			"value": "RM",
+			"label": "קשר ימני"
+		},
+		{
+			"value": "LW",
+			"label": "קיצוני שמאלי"
+		},
+		{
+			"value": "RW",
+			"label": "קיצוני ימני"
+		},
+		{
+			"value": "CF",
+			"label": "חלוץ מרכזי"
+		},
+		{
+			"value": "ST",
+			"label": "חלוץ"
+		}
+	],
+	"measurable": true,
+	"trainingCompatible": true,
+	"updatedAt": {
+		"$date": "2025-02-19T15:25:29.893Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "67b5b19e236a624bb7fbb83f"
+	},
+	"goalName": "אני מבשל",
+	"positions": [
+		{
+			"value": "CB",
+			"label": "בלם"
+		},
+		{
+			"value": "LB",
+			"label": "מגן שמאלי"
+		},
+		{
+			"value": "RB",
+			"label": "מגן ימני"
+		},
+		{
+			"value": "LWB",
+			"label": "מגן שמאלי תוקף"
+		},
+		{
+			"value": "RWB",
+			"label": "מגן ימני תוקף"
+		},
+		{
+			"value": "CDM",
+			"label": "קשר אחורי"
+		},
+		{
+			"value": "CM",
+			"label": "קשר מרכזי"
+		},
+		{
+			"value": "CAM",
+			"label": "קשר התקפי"
+		},
+		{
+			"value": "LM",
+			"label": "קשר שמאלי"
+		},
+		{
+			"value": "RM",
+			"label": "קשר ימני"
+		},
+		{
+			"value": "LW",
+			"label": "קיצוני שמאלי"
+		},
+		{
+			"value": "RW",
+			"label": "קיצוני ימני"
+		},
+		{
+			"value": "CF",
+			"label": "חלוץ מרכזי"
+		},
+		{
+			"value": "ST",
+			"label": "חלוץ"
+		}
+	],
+	"measurable": true,
+	"trainingCompatible": true,
+	"updatedAt": {
+		"$date": "2025-02-19T15:25:49.696Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "67b5b19e236a624bb7fbb840"
+	},
+	"goalName": "אני מוביל את הקבוצה לניצחון",
+	"positions": [
+		{
+			"value": "GK",
+			"label": "שוער"
+		},
+		{
+			"value": "CB",
+			"label": "בלם"
+		},
+		{
+			"value": "LB",
+			"label": "מגן שמאלי"
+		},
+		{
+			"value": "RB",
+			"label": "מגן ימני"
+		},
+		{
+			"value": "LWB",
+			"label": "מגן שמאלי תוקף"
+		},
+		{
+			"value": "RWB",
+			"label": "מגן ימני תוקף"
+		},
+		{
+			"value": "CDM",
+			"label": "קשר אחורי"
+		},
+		{
+			"value": "CM",
+			"label": "קשר מרכזי"
+		},
+		{
+			"value": "CAM",
+			"label": "קשר התקפי"
+		},
+		{
+			"value": "LM",
+			"label": "קשר שמאלי"
+		},
+		{
+			"value": "RM",
+			"label": "קשר ימני"
+		},
+		{
+			"value": "LW",
+			"label": "קיצוני שמאלי"
+		},
+		{
+			"value": "RW",
+			"label": "קיצוני ימני"
+		},
+		{
+			"value": "CF",
+			"label": "חלוץ מרכזי"
+		},
+		{
+			"value": "ST",
+			"label": "חלוץ"
+		}
+	],
+	"measurable": false,
+	"trainingCompatible": true,
+	"updatedAt": {
+		"$date": "2025-02-19T15:26:20.108Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "67b5b19e236a624bb7fbb841"
+	},
+	"goalName": "אני דומיננטי כל המשחק",
+	"positions": [
+		{
+			"value": "CB",
+			"label": "בלם"
+		},
+		{
+			"value": "LB",
+			"label": "מגן שמאלי"
+		},
+		{
+			"value": "RB",
+			"label": "מגן ימני"
+		},
+		{
+			"value": "LWB",
+			"label": "מגן שמאלי תוקף"
+		},
+		{
+			"value": "RWB",
+			"label": "מגן ימני תוקף"
+		},
+		{
+			"value": "CDM",
+			"label": "קשר אחורי"
+		},
+		{
+			"value": "CM",
+			"label": "קשר מרכזי"
+		},
+		{
+			"value": "CAM",
+			"label": "קשר התקפי"
+		},
+		{
+			"value": "LM",
+			"label": "קשר שמאלי"
+		},
+		{
+			"value": "RM",
+			"label": "קשר ימני"
+		},
+		{
+			"value": "LW",
+			"label": "קיצוני שמאלי"
+		},
+		{
+			"value": "RW",
+			"label": "קיצוני ימני"
+		},
+		{
+			"value": "CF",
+			"label": "חלוץ מרכזי"
+		},
+		{
+			"value": "ST",
+			"label": "חלוץ"
+		}
+	],
+	"measurable": false,
+	"trainingCompatible": true,
+	"updatedAt": {
+		"$date": "2025-02-19T11:46:36.554Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "67b5b19e236a624bb7fbb842"
+	},
+	"goalName": "אני בולט",
+	"positions": [
+		{
+			"value": "GK",
+			"label": "שוער"
+		},
+		{
+			"value": "CB",
+			"label": "בלם"
+		},
+		{
+			"value": "LB",
+			"label": "מגן שמאלי"
+		},
+		{
+			"value": "RB",
+			"label": "מגן ימני"
+		},
+		{
+			"value": "LWB",
+			"label": "מגן שמאלי תוקף"
+		},
+		{
+			"value": "RWB",
+			"label": "מגן ימני תוקף"
+		},
+		{
+			"value": "CDM",
+			"label": "קשר אחורי"
+		},
+		{
+			"value": "CM",
+			"label": "קשר מרכזי"
+		},
+		{
+			"value": "CAM",
+			"label": "קשר התקפי"
+		},
+		{
+			"value": "LM",
+			"label": "קשר שמאלי"
+		},
+		{
+			"value": "RM",
+			"label": "קשר ימני"
+		},
+		{
+			"value": "LW",
+			"label": "קיצוני שמאלי"
+		},
+		{
+			"value": "RW",
+			"label": "קיצוני ימני"
+		},
+		{
+			"value": "CF",
+			"label": "חלוץ מרכזי"
+		},
+		{
+			"value": "ST",
+			"label": "חלוץ"
+		}
+	],
+	"measurable": false,
+	"trainingCompatible": true,
+	"updatedAt": {
+		"$date": "2025-02-19T11:47:10.185Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "67b5b19e236a624bb7fbb843"
+	},
+	"goalName": "אני שומר על שער נקי",
+	"positions": [
+		{
+			"value": "GK",
+			"label": "שוער"
+		},
+		{
+			"value": "CB",
+			"label": "בלם"
+		},
+		{
+			"value": "LB",
+			"label": "מגן שמאלי"
+		},
+		{
+			"value": "RB",
+			"label": "מגן ימני"
+		},
+		{
+			"value": "CDM",
+			"label": "קשר אחורי"
+		},
+		{
+			"value": "LWB",
+			"label": "מגן שמאלי תוקף"
+		},
+		{
+			"value": "RWB",
+			"label": "מגן ימני תוקף"
+		}
+	],
+	"measurable": true,
+	"trainingCompatible": true,
+	"updatedAt": {
+		"$date": "2025-02-19T11:48:34.775Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "67b5b19e236a624bb7fbb844"
+	},
+	"goalName": "אני עושה משחק טוב",
+	"positions": [
+		{
+			"value": "GK",
+			"label": "שוער"
+		},
+		{
+			"value": "CB",
+			"label": "בלם"
+		},
+		{
+			"value": "LB",
+			"label": "מגן שמאלי"
+		},
+		{
+			"value": "RB",
+			"label": "מגן ימני"
+		},
+		{
+			"value": "LWB",
+			"label": "מגן שמאלי תוקף"
+		},
+		{
+			"value": "RWB",
+			"label": "מגן ימני תוקף"
+		},
+		{
+			"value": "CDM",
+			"label": "קשר אחורי"
+		},
+		{
+			"value": "CM",
+			"label": "קשר מרכזי"
+		},
+		{
+			"value": "CAM",
+			"label": "קשר התקפי"
+		},
+		{
+			"value": "LM",
+			"label": "קשר שמאלי"
+		},
+		{
+			"value": "RM",
+			"label": "קשר ימני"
+		},
+		{
+			"value": "LW",
+			"label": "קיצוני שמאלי"
+		},
+		{
+			"value": "RW",
+			"label": "קיצוני ימני"
+		},
+		{
+			"value": "CF",
+			"label": "חלוץ מרכזי"
+		},
+		{
+			"value": "ST",
+			"label": "חלוץ"
+		}
+	],
+	"measurable": false,
+	"trainingCompatible": true,
+	"updatedAt": {
+		"$date": "2025-02-19T15:35:47.747Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "67b5b19e236a624bb7fbb845"
+	},
+	"goalName": "אני יוצא מרוצה מהמשחק",
+	"positions": [
+		{
+			"value": "GK",
+			"label": "שוער"
+		},
+		{
+			"value": "CB",
+			"label": "בלם"
+		},
+		{
+			"value": "LB",
+			"label": "מגן שמאלי"
+		},
+		{
+			"value": "RB",
+			"label": "מגן ימני"
+		},
+		{
+			"value": "LWB",
+			"label": "מגן שמאלי תוקף"
+		},
+		{
+			"value": "RWB",
+			"label": "מגן ימני תוקף"
+		},
+		{
+			"value": "CDM",
+			"label": "קשר אחורי"
+		},
+		{
+			"value": "CM",
+			"label": "קשר מרכזי"
+		},
+		{
+			"value": "CAM",
+			"label": "קשר התקפי"
+		},
+		{
+			"value": "LM",
+			"label": "קשר שמאלי"
+		},
+		{
+			"value": "RM",
+			"label": "קשר ימני"
+		},
+		{
+			"value": "LW",
+			"label": "קיצוני שמאלי"
+		},
+		{
+			"value": "RW",
+			"label": "קיצוני ימני"
+		},
+		{
+			"value": "CF",
+			"label": "חלוץ מרכזי"
+		},
+		{
+			"value": "ST",
+			"label": "חלוץ"
+		}
+	],
+	"measurable": false,
+	"trainingCompatible": true,
+	"updatedAt": {
+		"$date": "2025-02-19T15:28:09.405Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "67b5b19e236a624bb7fbb846"
+	},
+	"goalName": "אני מביא את היכולת האמיתית שלי למשחק",
+	"positions": [
+		{
+			"value": "GK",
+			"label": "שוער"
+		},
+		{
+			"value": "CB",
+			"label": "בלם"
+		},
+		{
+			"value": "LB",
+			"label": "מגן שמאלי"
+		},
+		{
+			"value": "RB",
+			"label": "מגן ימני"
+		},
+		{
+			"value": "LWB",
+			"label": "מגן שמאלי תוקף"
+		},
+		{
+			"value": "RWB",
+			"label": "מגן ימני תוקף"
+		},
+		{
+			"value": "CDM",
+			"label": "קשר אחורי"
+		},
+		{
+			"value": "CM",
+			"label": "קשר מרכזי"
+		},
+		{
+			"value": "CAM",
+			"label": "קשר התקפי"
+		},
+		{
+			"value": "LM",
+			"label": "קשר שמאלי"
+		},
+		{
+			"value": "RM",
+			"label": "קשר ימני"
+		},
+		{
+			"value": "LW",
+			"label": "קיצוני שמאלי"
+		},
+		{
+			"value": "RW",
+			"label": "קיצוני ימני"
+		},
+		{
+			"value": "CF",
+			"label": "חלוץ מרכזי"
+		},
+		{
+			"value": "ST",
+			"label": "חלוץ"
+		}
+	],
+	"measurable": false,
+	"trainingCompatible": true,
+	"updatedAt": {
+		"$date": "2025-02-19T15:28:45.221Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "67b5b19e236a624bb7fbb847"
+	},
+	"goalName": "אני משחק בביטחון מהרגע הראשון",
+	"positions": [
+		{
+			"value": "GK",
+			"label": "שוער"
+		},
+		{
+			"value": "CB",
+			"label": "בלם"
+		},
+		{
+			"value": "LB",
+			"label": "מגן שמאלי"
+		},
+		{
+			"value": "RB",
+			"label": "מגן ימני"
+		},
+		{
+			"value": "LWB",
+			"label": "מגן שמאלי תוקף"
+		},
+		{
+			"value": "RWB",
+			"label": "מגן ימני תוקף"
+		},
+		{
+			"value": "CDM",
+			"label": "קשר אחורי"
+		},
+		{
+			"value": "CM",
+			"label": "קשר מרכזי"
+		},
+		{
+			"value": "CAM",
+			"label": "קשר התקפי"
+		},
+		{
+			"value": "LM",
+			"label": "קשר שמאלי"
+		},
+		{
+			"value": "RM",
+			"label": "קשר ימני"
+		},
+		{
+			"value": "LW",
+			"label": "קיצוני שמאלי"
+		},
+		{
+			"value": "RW",
+			"label": "קיצוני ימני"
+		},
+		{
+			"value": "CF",
+			"label": "חלוץ מרכזי"
+		},
+		{
+			"value": "ST",
+			"label": "חלוץ"
+		}
+	],
+	"measurable": false,
+	"trainingCompatible": true,
+	"updatedAt": {
+		"$date": "2025-02-19T15:39:29.143Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "67b5b19e236a624bb7fbb848"
+	},
+	"goalName": "אני מנצח במאבקים",
+	"positions": [
+		{
+			"value": "GK",
+			"label": "שוער"
+		},
+		{
+			"value": "CB",
+			"label": "בלם"
+		},
+		{
+			"value": "LB",
+			"label": "מגן שמאלי"
+		},
+		{
+			"value": "RB",
+			"label": "מגן ימני"
+		},
+		{
+			"value": "LWB",
+			"label": "מגן שמאלי תוקף"
+		},
+		{
+			"value": "RWB",
+			"label": "מגן ימני תוקף"
+		},
+		{
+			"value": "CDM",
+			"label": "קשר אחורי"
+		},
+		{
+			"value": "CM",
+			"label": "קשר מרכזי"
+		},
+		{
+			"value": "CAM",
+			"label": "קשר התקפי"
+		},
+		{
+			"value": "LM",
+			"label": "קשר שמאלי"
+		},
+		{
+			"value": "RM",
+			"label": "קשר ימני"
+		},
+		{
+			"value": "LW",
+			"label": "קיצוני שמאלי"
+		},
+		{
+			"value": "RW",
+			"label": "קיצוני ימני"
+		},
+		{
+			"value": "CF",
+			"label": "חלוץ מרכזי"
+		},
+		{
+			"value": "ST",
+			"label": "חלוץ"
+		}
+	],
+	"measurable": true,
+	"trainingCompatible": true,
+	"updatedAt": {
+		"$date": "2025-02-19T15:30:38.714Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "67b5b19e236a624bb7fbb849"
+	},
+	"goalName": "אני שולט בקצב המשחק",
+	"positions": [
+		{
+			"value": "CDM",
+			"label": "קשר אחורי"
+		},
+		{
+			"value": "CM",
+			"label": "קשר מרכזי"
+		},
+		{
+			"value": "CAM",
+			"label": "קשר התקפי"
+		},
+		{
+			"value": "LM",
+			"label": "קשר שמאלי"
+		},
+		{
+			"value": "RM",
+			"label": "קשר ימני"
+		},
+		{
+			"value": "LW",
+			"label": "קיצוני שמאלי"
+		},
+		{
+			"value": "RW",
+			"label": "קיצוני ימני"
+		},
+		{
+			"value": "CF",
+			"label": "חלוץ מרכזי"
+		},
+		{
+			"value": "ST",
+			"label": "חלוץ"
+		}
+	],
+	"measurable": false,
+	"trainingCompatible": true,
+	"updatedAt": {
+		"$date": "2025-02-19T15:31:25.469Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "67b5b19e236a624bb7fbb84a"
+	},
+	"goalName": "אני עושה אחד על אחד",
+	"positions": [
+		{
+			"value": "CDM",
+			"label": "קשר אחורי"
+		},
+		{
+			"value": "CM",
+			"label": "קשר מרכזי"
+		},
+		{
+			"value": "CAM",
+			"label": "קשר התקפי"
+		},
+		{
+			"value": "LM",
+			"label": "קשר שמאלי"
+		},
+		{
+			"value": "RM",
+			"label": "קשר ימני"
+		},
+		{
+			"value": "LW",
+			"label": "קיצוני שמאלי"
+		},
+		{
+			"value": "RW",
+			"label": "קיצוני ימני"
+		},
+		{
+			"value": "CF",
+			"label": "חלוץ מרכזי"
+		},
+		{
+			"value": "ST",
+			"label": "חלוץ"
+		}
+	],
+	"measurable": true,
+	"trainingCompatible": true,
+	"updatedAt": {
+		"$date": "2025-02-19T15:31:57.507Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "67b5b19e236a624bb7fbb84b"
+	},
+	"goalName": "אני בועט לשער",
+	"positions": [
+		{
+			"value": "CB",
+			"label": "בלם"
+		},
+		{
+			"value": "LB",
+			"label": "מגן שמאלי"
+		},
+		{
+			"value": "RB",
+			"label": "מגן ימני"
+		},
+		{
+			"value": "LWB",
+			"label": "מגן שמאלי תוקף"
+		},
+		{
+			"value": "RWB",
+			"label": "מגן ימני תוקף"
+		},
+		{
+			"value": "CDM",
+			"label": "קשר אחורי"
+		},
+		{
+			"value": "CM",
+			"label": "קשר מרכזי"
+		},
+		{
+			"value": "CAM",
+			"label": "קשר התקפי"
+		},
+		{
+			"value": "LM",
+			"label": "קשר שמאלי"
+		},
+		{
+			"value": "RM",
+			"label": "קשר ימני"
+		},
+		{
+			"value": "LW",
+			"label": "קיצוני שמאלי"
+		},
+		{
+			"value": "RW",
+			"label": "קיצוני ימני"
+		},
+		{
+			"value": "CF",
+			"label": "חלוץ מרכזי"
+		},
+		{
+			"value": "ST",
+			"label": "חלוץ"
+		}
+	],
+	"measurable": true,
+	"trainingCompatible": true,
+	"updatedAt": {
+		"$date": "2025-02-19T15:32:26.98Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "67b5b19e236a624bb7fbb84c"
+	},
+	"goalName": "אני נכנס אגרסיבי לתאקלים",
+	"positions": [
+		{
+			"value": "CB",
+			"label": "בלם"
+		},
+		{
+			"value": "LB",
+			"label": "מגן שמאלי"
+		},
+		{
+			"value": "RB",
+			"label": "מגן ימני"
+		},
+		{
+			"value": "LWB",
+			"label": "מגן שמאלי תוקף"
+		},
+		{
+			"value": "RWB",
+			"label": "מגן ימני תוקף"
+		},
+		{
+			"value": "CDM",
+			"label": "קשר אחורי"
+		},
+		{
+			"value": "CM",
+			"label": "קשר מרכזי"
+		},
+		{
+			"value": "CAM",
+			"label": "קשר התקפי"
+		},
+		{
+			"value": "LM",
+			"label": "קשר שמאלי"
+		},
+		{
+			"value": "RM",
+			"label": "קשר ימני"
+		},
+		{
+			"value": "LW",
+			"label": "קיצוני שמאלי"
+		},
+		{
+			"value": "RW",
+			"label": "קיצוני ימני"
+		},
+		{
+			"value": "CF",
+			"label": "חלוץ מרכזי"
+		},
+		{
+			"value": "ST",
+			"label": "חלוץ"
+		}
+	],
+	"measurable": true,
+	"trainingCompatible": true,
+	"updatedAt": {
+		"$date": "2025-02-19T15:32:43.022Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "67b5b19e236a624bb7fbb84d"
+	},
+	"goalName": "אני משחק אגרסיבי",
+	"positions": [
+		{
+			"value": "GK",
+			"label": "שוער"
+		},
+		{
+			"value": "CB",
+			"label": "בלם"
+		},
+		{
+			"value": "LB",
+			"label": "מגן שמאלי"
+		},
+		{
+			"value": "RB",
+			"label": "מגן ימני"
+		},
+		{
+			"value": "LWB",
+			"label": "מגן שמאלי תוקף"
+		},
+		{
+			"value": "RWB",
+			"label": "מגן ימני תוקף"
+		},
+		{
+			"value": "CDM",
+			"label": "קשר אחורי"
+		},
+		{
+			"value": "CM",
+			"label": "קשר מרכזי"
+		},
+		{
+			"value": "CAM",
+			"label": "קשר התקפי"
+		},
+		{
+			"value": "LM",
+			"label": "קשר שמאלי"
+		},
+		{
+			"value": "RM",
+			"label": "קשר ימני"
+		},
+		{
+			"value": "LW",
+			"label": "קיצוני שמאלי"
+		},
+		{
+			"value": "RW",
+			"label": "קיצוני ימני"
+		},
+		{
+			"value": "CF",
+			"label": "חלוץ מרכזי"
+		},
+		{
+			"value": "ST",
+			"label": "חלוץ"
+		}
+	],
+	"measurable": true,
+	"trainingCompatible": true,
+	"updatedAt": {
+		"$date": "2025-02-19T15:33:00.199Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "67b5b19e236a624bb7fbb84e"
+	},
+	"goalName": "אני פעיל",
+	"positions": [
+		{
+			"value": "CB",
+			"label": "בלם"
+		},
+		{
+			"value": "LB",
+			"label": "מגן שמאלי"
+		},
+		{
+			"value": "RB",
+			"label": "מגן ימני"
+		},
+		{
+			"value": "LWB",
+			"label": "מגן שמאלי תוקף"
+		},
+		{
+			"value": "RWB",
+			"label": "מגן ימני תוקף"
+		},
+		{
+			"value": "CDM",
+			"label": "קשר אחורי"
+		},
+		{
+			"value": "CM",
+			"label": "קשר מרכזי"
+		},
+		{
+			"value": "CAM",
+			"label": "קשר התקפי"
+		},
+		{
+			"value": "LM",
+			"label": "קשר שמאלי"
+		},
+		{
+			"value": "RM",
+			"label": "קשר ימני"
+		},
+		{
+			"value": "LW",
+			"label": "קיצוני שמאלי"
+		},
+		{
+			"value": "RW",
+			"label": "קיצוני ימני"
+		},
+		{
+			"value": "CF",
+			"label": "חלוץ מרכזי"
+		},
+		{
+			"value": "ST",
+			"label": "חלוץ"
+		}
+	],
+	"measurable": false,
+	"trainingCompatible": true,
+	"updatedAt": {
+		"$date": "2025-02-19T15:41:18.446Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "67b5b19e236a624bb7fbb84f"
+	},
+	"goalName": "אני חי את המשחק",
+	"positions": [
+		{
+			"value": "GK",
+			"label": "שוער"
+		},
+		{
+			"value": "CB",
+			"label": "בלם"
+		},
+		{
+			"value": "LB",
+			"label": "מגן שמאלי"
+		},
+		{
+			"value": "RB",
+			"label": "מגן ימני"
+		},
+		{
+			"value": "LWB",
+			"label": "מגן שמאלי תוקף"
+		},
+		{
+			"value": "RWB",
+			"label": "מגן ימני תוקף"
+		},
+		{
+			"value": "CDM",
+			"label": "קשר אחורי"
+		},
+		{
+			"value": "CM",
+			"label": "קשר מרכזי"
+		},
+		{
+			"value": "CAM",
+			"label": "קשר התקפי"
+		},
+		{
+			"value": "LM",
+			"label": "קשר שמאלי"
+		},
+		{
+			"value": "RM",
+			"label": "קשר ימני"
+		},
+		{
+			"value": "LW",
+			"label": "קיצוני שמאלי"
+		},
+		{
+			"value": "RW",
+			"label": "קיצוני ימני"
+		},
+		{
+			"value": "CF",
+			"label": "חלוץ מרכזי"
+		},
+		{
+			"value": "ST",
+			"label": "חלוץ"
+		}
+	],
+	"measurable": false,
+	"trainingCompatible": true,
+	"updatedAt": {
+		"$date": "2025-02-19T15:41:24.957Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "67b5b19e236a624bb7fbb850"
+	},
+	"goalName": "אני מוכיח את עצמי",
+	"positions": [
+		{
+			"value": "GK",
+			"label": "שוער"
+		},
+		{
+			"value": "CB",
+			"label": "בלם"
+		},
+		{
+			"value": "LB",
+			"label": "מגן שמאלי"
+		},
+		{
+			"value": "RB",
+			"label": "מגן ימני"
+		},
+		{
+			"value": "LWB",
+			"label": "מגן שמאלי תוקף"
+		},
+		{
+			"value": "RWB",
+			"label": "מגן ימני תוקף"
+		},
+		{
+			"value": "CDM",
+			"label": "קשר אחורי"
+		},
+		{
+			"value": "CM",
+			"label": "קשר מרכזי"
+		},
+		{
+			"value": "CAM",
+			"label": "קשר התקפי"
+		},
+		{
+			"value": "LM",
+			"label": "קשר שמאלי"
+		},
+		{
+			"value": "RM",
+			"label": "קשר ימני"
+		},
+		{
+			"value": "LW",
+			"label": "קיצוני שמאלי"
+		},
+		{
+			"value": "RW",
+			"label": "קיצוני ימני"
+		},
+		{
+			"value": "CF",
+			"label": "חלוץ מרכזי"
+		},
+		{
+			"value": "ST",
+			"label": "חלוץ"
+		}
+	],
+	"measurable": false,
+	"trainingCompatible": true,
+	"updatedAt": {
+		"$date": "2025-02-19T15:41:38.671Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "67b5b19e236a624bb7fbb851"
+	},
+	"goalName": "אני נהנה מהמשחק",
+	"positions": [
+		{
+			"value": "GK",
+			"label": "שוער"
+		},
+		{
+			"value": "CB",
+			"label": "בלם"
+		},
+		{
+			"value": "LB",
+			"label": "מגן שמאלי"
+		},
+		{
+			"value": "RB",
+			"label": "מגן ימני"
+		},
+		{
+			"value": "LWB",
+			"label": "מגן שמאלי תוקף"
+		},
+		{
+			"value": "RWB",
+			"label": "מגן ימני תוקף"
+		},
+		{
+			"value": "CDM",
+			"label": "קשר אחורי"
+		},
+		{
+			"value": "CM",
+			"label": "קשר מרכזי"
+		},
+		{
+			"value": "CAM",
+			"label": "קשר התקפי"
+		},
+		{
+			"value": "LM",
+			"label": "קשר שמאלי"
+		},
+		{
+			"value": "RM",
+			"label": "קשר ימני"
+		},
+		{
+			"value": "LW",
+			"label": "קיצוני שמאלי"
+		},
+		{
+			"value": "RW",
+			"label": "קיצוני ימני"
+		},
+		{
+			"value": "CF",
+			"label": "חלוץ מרכזי"
+		},
+		{
+			"value": "ST",
+			"label": "חלוץ"
+		}
+	],
+	"measurable": false,
+	"trainingCompatible": true,
+	"updatedAt": {
+		"$date": "2025-02-19T15:34:46.583Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "67b5b19e236a624bb7fbb852"
+	},
+	"goalName": "אני מנהיג את הקבוצה",
+	"positions": [
+		{
+			"value": "GK",
+			"label": "שוער"
+		},
+		{
+			"value": "CB",
+			"label": "בלם"
+		},
+		{
+			"value": "LB",
+			"label": "מגן שמאלי"
+		},
+		{
+			"value": "RB",
+			"label": "מגן ימני"
+		},
+		{
+			"value": "LWB",
+			"label": "מגן שמאלי תוקף"
+		},
+		{
+			"value": "RWB",
+			"label": "מגן ימני תוקף"
+		},
+		{
+			"value": "CDM",
+			"label": "קשר אחורי"
+		},
+		{
+			"value": "CM",
+			"label": "קשר מרכזי"
+		},
+		{
+			"value": "CAM",
+			"label": "קשר התקפי"
+		},
+		{
+			"value": "LM",
+			"label": "קשר שמאלי"
+		},
+		{
+			"value": "RM",
+			"label": "קשר ימני"
+		},
+		{
+			"value": "LW",
+			"label": "קיצוני שמאלי"
+		},
+		{
+			"value": "RW",
+			"label": "קיצוני ימני"
+		},
+		{
+			"value": "CF",
+			"label": "חלוץ מרכזי"
+		},
+		{
+			"value": "ST",
+			"label": "חלוץ"
+		}
+	],
+	"measurable": false,
+	"trainingCompatible": true,
+	"updatedAt": {
+		"$date": "2025-02-19T15:43:58.928Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "67b5b19e236a624bb7fbb853"
+	},
+	"goalName": "אני חיובי",
+	"positions": [
+		{
+			"value": "GK",
+			"label": "שוער"
+		},
+		{
+			"value": "CB",
+			"label": "בלם"
+		},
+		{
+			"value": "LB",
+			"label": "מגן שמאלי"
+		},
+		{
+			"value": "RB",
+			"label": "מגן ימני"
+		},
+		{
+			"value": "LWB",
+			"label": "מגן שמאלי תוקף"
+		},
+		{
+			"value": "RWB",
+			"label": "מגן ימני תוקף"
+		},
+		{
+			"value": "CDM",
+			"label": "קשר אחורי"
+		},
+		{
+			"value": "CM",
+			"label": "קשר מרכזי"
+		},
+		{
+			"value": "CAM",
+			"label": "קשר התקפי"
+		},
+		{
+			"value": "LM",
+			"label": "קשר שמאלי"
+		},
+		{
+			"value": "RM",
+			"label": "קשר ימני"
+		},
+		{
+			"value": "LW",
+			"label": "קיצוני שמאלי"
+		},
+		{
+			"value": "RW",
+			"label": "קיצוני ימני"
+		},
+		{
+			"value": "CF",
+			"label": "חלוץ מרכזי"
+		},
+		{
+			"value": "ST",
+			"label": "חלוץ"
+		}
+	],
+	"measurable": false,
+	"trainingCompatible": true,
+	"updatedAt": {
+		"$date": "2025-02-19T15:44:07.787Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "67b5b19e236a624bb7fbb854"
+	},
+	"goalName": "מתאושש מהר אחרי טעויות",
+	"positions": [
+		{
+			"value": "GK",
+			"label": "שוער"
+		},
+		{
+			"value": "CB",
+			"label": "בלם"
+		},
+		{
+			"value": "LB",
+			"label": "מגן שמאלי"
+		},
+		{
+			"value": "RB",
+			"label": "מגן ימני"
+		},
+		{
+			"value": "LWB",
+			"label": "מגן שמאלי תוקף"
+		},
+		{
+			"value": "RWB",
+			"label": "מגן ימני תוקף"
+		},
+		{
+			"value": "CDM",
+			"label": "קשר אחורי"
+		},
+		{
+			"value": "CM",
+			"label": "קשר מרכזי"
+		},
+		{
+			"value": "CAM",
+			"label": "קשר התקפי"
+		},
+		{
+			"value": "LM",
+			"label": "קשר שמאלי"
+		},
+		{
+			"value": "RM",
+			"label": "קשר ימני"
+		},
+		{
+			"value": "LW",
+			"label": "קיצוני שמאלי"
+		},
+		{
+			"value": "RW",
+			"label": "קיצוני ימני"
+		},
+		{
+			"value": "CF",
+			"label": "חלוץ מרכזי"
+		},
+		{
+			"value": "ST",
+			"label": "חלוץ"
+		}
+	],
+	"measurable": true,
+	"trainingCompatible": true,
+	"updatedAt": {
+		"$date": "2025-02-19T15:43:04.952Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "67b5b19e236a624bb7fbb855"
+	},
+	"goalName": "מתואשש מהר כשמשהו לא הולך לי",
+	"positions": [
+		{
+			"value": "GK",
+			"label": "שוער"
+		},
+		{
+			"value": "CB",
+			"label": "בלם"
+		},
+		{
+			"value": "LB",
+			"label": "מגן שמאלי"
+		},
+		{
+			"value": "RB",
+			"label": "מגן ימני"
+		},
+		{
+			"value": "LWB",
+			"label": "מגן שמאלי תוקף"
+		},
+		{
+			"value": "RWB",
+			"label": "מגן ימני תוקף"
+		},
+		{
+			"value": "CDM",
+			"label": "קשר אחורי"
+		},
+		{
+			"value": "CM",
+			"label": "קשר מרכזי"
+		},
+		{
+			"value": "CAM",
+			"label": "קשר התקפי"
+		},
+		{
+			"value": "LM",
+			"label": "קשר שמאלי"
+		},
+		{
+			"value": "RM",
+			"label": "קשר ימני"
+		},
+		{
+			"value": "LW",
+			"label": "קיצוני שמאלי"
+		},
+		{
+			"value": "RW",
+			"label": "קיצוני ימני"
+		},
+		{
+			"value": "CF",
+			"label": "חלוץ מרכזי"
+		},
+		{
+			"value": "ST",
+			"label": "חלוץ"
+		}
+	],
+	"measurable": true,
+	"trainingCompatible": true,
+	"updatedAt": {
+		"$date": "2025-02-19T15:43:18.812Z"
+	}
+}]
+

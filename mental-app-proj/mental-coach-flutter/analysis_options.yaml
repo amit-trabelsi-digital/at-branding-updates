@@ -1,0 +1,11 @@
+include: package:flutter_lints/flutter.yaml
+analyzer:
+  errors:
+    unused_field: ignore
+    avoid_print: ignore
+    non_constant_identifier_names: ignore
+linter:
+  rules:
+    - lines_longer_than_80_chars: false
+  # Or use the convention for dart_code_metrics package
+  # line-length: 120 # Set your desired line length

@@ -1,0 +1,136 @@
+[{
+	"_id": {
+		"$oid": "677cf57ea17baa07b47557c4"
+	},
+	"name": "לאומית",
+	"country": "israel",
+	"season": "",
+	"teams": [
+		{
+			"$oid": "677cde2afb7bb4d265208707"
+		},
+		{
+			"$oid": "677ce2dd2b69d9d876676dcd"
+		},
+		{
+			"$oid": "67da71a7bb908fa540b07f47"
+		},
+		{
+			"$oid": "67da721bbb908fa540b07f4e"
+		},
+		{
+			"$oid": "67da731a8188ba6f24ea1709"
+		}
+	],
+	"matches": [],
+	"createdAt": {
+		"$date": "2025-01-07T09:35:58.109Z"
+	},
+	"updatedAt": {
+		"$date": "2025-03-19T14:20:39.307Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6783be0effbe4d42c120ea4e"
+	},
+	"name": "לאומית נוער",
+	"country": "israel",
+	"season": "",
+	"teams": [
+		{
+			"$oid": "677cde2afb7bb4d265208707"
+		},
+		{
+			"$oid": "677ce2dd2b69d9d876676dcd"
+		},
+		{
+			"$oid": "67da71a7bb908fa540b07f47"
+		},
+		{
+			"$oid": "67da721bbb908fa540b07f4e"
+		},
+		{
+			"$oid": "67da731a8188ba6f24ea1709"
+		}
+	],
+	"matches": [],
+	"createdAt": {
+		"$date": "2025-01-12T13:05:18.483Z"
+	},
+	"updatedAt": {
+		"$date": "2025-03-19T14:20:30.83Z"
+	},
+	"numberOfTeams": 1,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "67864e03dd0314b4261fd5fc"
+	},
+	"name": "א נוער",
+	"country": "israel",
+	"season": "",
+	"teams": [
+		{
+			"$oid": "677cde2afb7bb4d265208707"
+		},
+		{
+			"$oid": "677ce2dd2b69d9d876676dcd"
+		},
+		{
+			"$oid": "67da71a7bb908fa540b07f47"
+		},
+		{
+			"$oid": "67da721bbb908fa540b07f4e"
+		},
+		{
+			"$oid": "67da731a8188ba6f24ea1709"
+		}
+	],
+	"matches": [],
+	"createdAt": {
+		"$date": "2025-01-14T11:44:03.388Z"
+	},
+	"updatedAt": {
+		"$date": "2025-03-19T14:20:24.207Z"
+	},
+	"numberOfTeams": 2,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "67b5a05ec1de4abfb406f4da"
+	},
+	"name": "נוער ב",
+	"country": "israel",
+	"teams": [
+		{
+			"$oid": "677cde2afb7bb4d265208707"
+		},
+		{
+			"$oid": "677ce2dd2b69d9d876676dcd"
+		},
+		{
+			"$oid": "67da71a7bb908fa540b07f47"
+		},
+		{
+			"$oid": "67da721bbb908fa540b07f4e"
+		},
+		{
+			"$oid": "67da731a8188ba6f24ea1709"
+		}
+	],
+	"matches": [],
+	"createdAt": {
+		"$date": "2025-02-19T09:11:58.063Z"
+	},
+	"updatedAt": {
+		"$date": "2025-03-19T14:20:15.011Z"
+	},
+	"numberOfTeams": 2,
+	"__v": 0,
+	"season": null
+}]
+

@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development
+
+# Build output
+dist/
+build/
+*.js
+!scripts/*.mjs
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sensitive files
+TWILIO_CREDENTIALS.txt
+firebase-service-account.json
+serviceAccountKey.json
+
+# Database dumps
+dumpdb-full/
+*.dump
+*.sql
+
+# Temporary files
+tmp/
+temp/
+.cache/

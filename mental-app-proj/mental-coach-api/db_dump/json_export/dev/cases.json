@@ -1,0 +1,845 @@
+[{
+	"_id": {
+		"$oid": "6786252ed74aacd1795261d7"
+	},
+	"case": "איך להתחיל את המשחק בביטחון",
+	"response": "https://vimeo.com/1044574723?share=copy",
+	"responseState": "before",
+	"positions": [
+		{
+			"value": "GK",
+			"label": "שוער"
+		},
+		{
+			"value": "CB",
+			"label": "בלם"
+		},
+		{
+			"value": "LB",
+			"label": "מגן שמאלי"
+		},
+		{
+			"value": "RB",
+			"label": "מגן ימני"
+		},
+		{
+			"value": "LWB",
+			"label": "מגן שמאלי תוקף"
+		},
+		{
+			"value": "RWB",
+			"label": "מגן ימני תוקף"
+		},
+		{
+			"value": "CDM",
+			"label": "קשר אחורי"
+		},
+		{
+			"value": "CM",
+			"label": "קשר מרכזי"
+		},
+		{
+			"value": "LM",
+			"label": "קשר שמאלי"
+		},
+		{
+			"value": "RM",
+			"label": "קשר ימני"
+		},
+		{
+			"value": "LW",
+			"label": "קיצוני שמאלי"
+		},
+		{
+			"value": "CF",
+			"label": "חלוץ מרכזי"
+		},
+		{
+			"value": "ST",
+			"label": "חלוץ"
+		}
+	],
+	"notes": "",
+	"tags": [
+		{
+			"value": "51b4f3a6f69debd045db68b712d5c930",
+			"label": "ביטחון"
+		},
+		{
+			"value": "63d6f1aa6a6c89a0a1bd6b0763bacd11",
+			"label": "השקעה"
+		}
+	],
+	"link": "https://vimeo.com/1044574723?share=copy",
+	"sent": false,
+	"createdAt": {
+		"$date": "2025-01-14T08:49:50.371Z"
+	},
+	"__v": 0,
+	"data": null
+},
+{
+	"_id": {
+		"$oid": "67b45dbd183663b827853de3"
+	},
+	"case": "שוער? ככה תתכונן מנטלית למשחק",
+	"response": "https://vimeo.com/1044574529?share=copy",
+	"responseState": "before",
+	"positions": [
+		{
+			"value": "GK",
+			"label": "שוער"
+		}
+	],
+	"notes": "",
+	"tags": [
+		{
+			"value": "mental",
+			"label": "מנטלי"
+		}
+	],
+	"link": "https://vimeo.com/1044574529?share=copy"
+},
+{
+	"_id": {
+		"$oid": "67b45dbd183663b827853de4"
+	},
+	"case": "בלם? ככה תתכונן מנטלית למשחק",
+	"response": "https://vimeo.com/1044574287?share=copy",
+	"responseState": "before",
+	"positions": [
+		{
+			"value": "CB",
+			"label": "בלם"
+		}
+	],
+	"notes": "",
+	"tags": [
+		{
+			"value": "mental",
+			"label": "מנטלי"
+		}
+	],
+	"link": "https://vimeo.com/1044574287?share=copy"
+},
+{
+	"_id": {
+		"$oid": "67b45dbd183663b827853de5"
+	},
+	"case": "מגן? ככה תתכונן מנטלית למשחק",
+	"response": "https://vimeo.com/1044574529?share=copy",
+	"responseState": "before",
+	"positions": [
+		{
+			"value": "LB",
+			"label": "מגן שמאלי"
+		},
+		{
+			"value": "RB",
+			"label": "מגן ימני"
+		}
+	],
+	"notes": "",
+	"tags": [
+		{
+			"value": "mental",
+			"label": "מנטלי"
+		}
+	],
+	"link": "https://vimeo.com/1044574529?share=copy"
+},
+{
+	"_id": {
+		"$oid": "67b45dbd183663b827853de6"
+	},
+	"case": "קשר אחורי? ככה תתכונן מנטלית למשחק",
+	"response": "https://vimeo.com/1044574334?share=copy",
+	"responseState": "before",
+	"positions": [
+		{
+			"value": "CDM",
+			"label": "קשר אחורי"
+		}
+	],
+	"notes": "",
+	"tags": [
+		{
+			"value": "mental",
+			"label": "מנטלי"
+		}
+	],
+	"link": "https://vimeo.com/1044574334?share=copy"
+},
+{
+	"_id": {
+		"$oid": "67b45dbd183663b827853de7"
+	},
+	"case": "חלוץ? ככה תתכונן מנטלית למשחק",
+	"response": "https://vimeo.com/1044574287?share=copy",
+	"responseState": "before",
+	"positions": [
+		{
+			"value": "ST",
+			"label": "חלוץ"
+		}
+	],
+	"notes": "",
+	"tags": [
+		{
+			"value": "mental",
+			"label": "מנטלי"
+		}
+	],
+	"link": "https://vimeo.com/1044574287?share=copy"
+},
+{
+	"_id": {
+		"$oid": "67b45dbd183663b827853de8"
+	},
+	"case": "פרפרים בבטן לפני משחק? כנס לפה",
+	"response": "https://vimeo.com/1044574529?share=copy",
+	"responseState": "before",
+	"positions": [],
+	"notes": "",
+	"tags": [
+		{
+			"value": "mental",
+			"label": "מנטלי"
+		}
+	],
+	"link": "https://vimeo.com/1044574529?share=copy"
+},
+{
+	"_id": {
+		"$oid": "67b45dbd183663b827853de9"
+	},
+	"case": "איך להציב מטרות לפני משחק",
+	"response": "https://vimeo.com/1044574393?share=copy",
+	"responseState": "before",
+	"positions": [],
+	"notes": "",
+	"tags": [
+		{
+			"value": "goal_setting",
+			"label": "הצבת מטרות"
+		}
+	],
+	"link": "https://vimeo.com/1044574393?share=copy"
+},
+{
+	"_id": {
+		"$oid": "67b45dbd183663b827853dea"
+	},
+	"case": "איך להתחיל את המשחק בביטחון",
+	"response": "https://vimeo.com/1044574723?share=copy",
+	"responseState": "inTime",
+	"positions": [
+		{
+			"value": "GK",
+			"label": "שוער"
+		},
+		{
+			"value": "CB",
+			"label": "בלם"
+		},
+		{
+			"value": "LB",
+			"label": "מגן שמאלי"
+		},
+		{
+			"value": "RB",
+			"label": "מגן ימני"
+		},
+		{
+			"value": "LWB",
+			"label": "מגן שמאלי תוקף"
+		},
+		{
+			"value": "RWB",
+			"label": "מגן ימני תוקף"
+		},
+		{
+			"value": "CDM",
+			"label": "קשר אחורי"
+		},
+		{
+			"value": "CM",
+			"label": "קשר מרכזי"
+		},
+		{
+			"value": "LM",
+			"label": "קשר שמאלי"
+		},
+		{
+			"value": "RM",
+			"label": "קשר ימני"
+		},
+		{
+			"value": "LW",
+			"label": "קיצוני שמאלי"
+		},
+		{
+			"value": "CF",
+			"label": "חלוץ מרכזי"
+		},
+		{
+			"value": "ST",
+			"label": "חלוץ"
+		}
+	],
+	"notes": "",
+	"tags": [
+		{
+			"value": "51b4f3a6f69debd045db68b712d5c930",
+			"label": "ביטחון"
+		},
+		{
+			"value": "63d6f1aa6a6c89a0a1bd6b0763bacd11",
+			"label": "השקעה"
+		}
+	],
+	"link": "https://vimeo.com/1044574723?share=copy",
+	"data": null
+},
+{
+	"_id": {
+		"$oid": "67b5ba12236a624bb7fbb856"
+	},
+	"case": "איך להתחיל את המשחק בביטחון",
+	"response": "https://vimeo.com/1044574723?share=copy",
+	"responseState": "inTime",
+	"positions": [
+		{
+			"value": "GK",
+			"label": "שוער"
+		},
+		{
+			"value": "CB",
+			"label": "בלם"
+		},
+		{
+			"value": "LB",
+			"label": "מגן שמאלי"
+		},
+		{
+			"value": "RB",
+			"label": "מגן ימני"
+		},
+		{
+			"value": "LWB",
+			"label": "מגן שמאלי תוקף"
+		},
+		{
+			"value": "RWB",
+			"label": "מגן ימני תוקף"
+		},
+		{
+			"value": "CDM",
+			"label": "קשר אחורי"
+		},
+		{
+			"value": "CM",
+			"label": "קשר מרכזי"
+		},
+		{
+			"value": "CAM",
+			"label": "קשר התקפי"
+		},
+		{
+			"value": "LM",
+			"label": "קשר שמאלי"
+		},
+		{
+			"value": "RM",
+			"label": "קשר ימני"
+		},
+		{
+			"value": "LW",
+			"label": "קיצוני שמאלי"
+		},
+		{
+			"value": "RW",
+			"label": "קיצוני ימני"
+		},
+		{
+			"value": "CF",
+			"label": "חלוץ מרכזי"
+		},
+		{
+			"value": "ST",
+			"label": "חלוץ"
+		}
+	],
+	"notes": "",
+	"tags": [],
+	"link": "https://vimeo.com/1044574723?share=copy",
+	"data": null
+},
+{
+	"_id": {
+		"$oid": "67b5ba12236a624bb7fbb857"
+	},
+	"case": "איך לשחק בלי לחץ במשחק (גם מול 30,000 איש)",
+	"response": "https://vimeo.com/1044574776?share=copy",
+	"responseState": "inTime",
+	"positions": [
+		{
+			"value": "GK",
+			"label": "שוער"
+		},
+		{
+			"value": "CB",
+			"label": "בלם"
+		},
+		{
+			"value": "LB",
+			"label": "מגן שמאלי"
+		},
+		{
+			"value": "RB",
+			"label": "מגן ימני"
+		},
+		{
+			"value": "LWB",
+			"label": "מגן שמאלי תוקף"
+		},
+		{
+			"value": "RWB",
+			"label": "מגן ימני תוקף"
+		},
+		{
+			"value": "CDM",
+			"label": "קשר אחורי"
+		},
+		{
+			"value": "CM",
+			"label": "קשר מרכזי"
+		},
+		{
+			"value": "CAM",
+			"label": "קשר התקפי"
+		},
+		{
+			"value": "LM",
+			"label": "קשר שמאלי"
+		},
+		{
+			"value": "RM",
+			"label": "קשר ימני"
+		},
+		{
+			"value": "LW",
+			"label": "קיצוני שמאלי"
+		},
+		{
+			"value": "RW",
+			"label": "קיצוני ימני"
+		},
+		{
+			"value": "CF",
+			"label": "חלוץ מרכזי"
+		},
+		{
+			"value": "ST",
+			"label": "חלוץ"
+		}
+	],
+	"notes": "",
+	"tags": [],
+	"link": "https://vimeo.com/1044574776?share=copy",
+	"data": null
+},
+{
+	"_id": {
+		"$oid": "67b5ba12236a624bb7fbb858"
+	},
+	"case": "איך להתאושש מהר אחרי טעות",
+	"response": "https://vimeo.com/1044574684?share=copy",
+	"responseState": "inTime",
+	"positions": [
+		{
+			"value": "GK",
+			"label": "שוער"
+		},
+		{
+			"value": "CB",
+			"label": "בלם"
+		},
+		{
+			"value": "LB",
+			"label": "מגן שמאלי"
+		},
+		{
+			"value": "RB",
+			"label": "מגן ימני"
+		},
+		{
+			"value": "LWB",
+			"label": "מגן שמאלי תוקף"
+		},
+		{
+			"value": "RWB",
+			"label": "מגן ימני תוקף"
+		},
+		{
+			"value": "CDM",
+			"label": "קשר אחורי"
+		},
+		{
+			"value": "CM",
+			"label": "קשר מרכזי"
+		},
+		{
+			"value": "CAM",
+			"label": "קשר התקפי"
+		},
+		{
+			"value": "LM",
+			"label": "קשר שמאלי"
+		},
+		{
+			"value": "RM",
+			"label": "קשר ימני"
+		},
+		{
+			"value": "LW",
+			"label": "קיצוני שמאלי"
+		},
+		{
+			"value": "RW",
+			"label": "קיצוני ימני"
+		},
+		{
+			"value": "CF",
+			"label": "חלוץ מרכזי"
+		},
+		{
+			"value": "ST",
+			"label": "חלוץ"
+		}
+	],
+	"notes": "",
+	"tags": [],
+	"link": "https://vimeo.com/1044574684?share=copy",
+	"data": null
+},
+{
+	"_id": {
+		"$oid": "67b5ba12236a624bb7fbb859"
+	},
+	"case": "איך להרשים את המאמן שלך באימונים ובמשחק",
+	"response": "https://vimeo.com/1044574662?share=copy",
+	"responseState": "inTime",
+	"positions": [
+		{
+			"value": "GK",
+			"label": "שוער"
+		},
+		{
+			"value": "CB",
+			"label": "בלם"
+		},
+		{
+			"value": "LB",
+			"label": "מגן שמאלי"
+		},
+		{
+			"value": "RB",
+			"label": "מגן ימני"
+		},
+		{
+			"value": "LWB",
+			"label": "מגן שמאלי תוקף"
+		},
+		{
+			"value": "RWB",
+			"label": "מגן ימני תוקף"
+		},
+		{
+			"value": "CDM",
+			"label": "קשר אחורי"
+		},
+		{
+			"value": "CM",
+			"label": "קשר מרכזי"
+		},
+		{
+			"value": "CAM",
+			"label": "קשר התקפי"
+		},
+		{
+			"value": "LM",
+			"label": "קשר שמאלי"
+		},
+		{
+			"value": "RM",
+			"label": "קשר ימני"
+		},
+		{
+			"value": "LW",
+			"label": "קיצוני שמאלי"
+		},
+		{
+			"value": "RW",
+			"label": "קיצוני ימני"
+		},
+		{
+			"value": "CF",
+			"label": "חלוץ מרכזי"
+		},
+		{
+			"value": "ST",
+			"label": "חלוץ"
+		}
+	],
+	"notes": "",
+	"tags": [],
+	"link": "https://vimeo.com/1044574662?share=copy",
+	"data": null
+},
+{
+	"_id": {
+		"$oid": "67b5ba12236a624bb7fbb85a"
+	},
+	"case": "איך לא לדאוג לגבי מה אחרים חושבים עליך",
+	"response": "https://vimeo.com/1044574640?share=copy",
+	"responseState": "inTime",
+	"positions": [
+		{
+			"value": "GK",
+			"label": "שוער"
+		},
+		{
+			"value": "CB",
+			"label": "בלם"
+		},
+		{
+			"value": "LB",
+			"label": "מגן שמאלי"
+		},
+		{
+			"value": "RB",
+			"label": "מגן ימני"
+		},
+		{
+			"value": "LWB",
+			"label": "מגן שמאלי תוקף"
+		},
+		{
+			"value": "RWB",
+			"label": "מגן ימני תוקף"
+		},
+		{
+			"value": "CDM",
+			"label": "קשר אחורי"
+		},
+		{
+			"value": "CM",
+			"label": "קשר מרכזי"
+		},
+		{
+			"value": "CAM",
+			"label": "קשר התקפי"
+		},
+		{
+			"value": "LM",
+			"label": "קשר שמאלי"
+		},
+		{
+			"value": "RM",
+			"label": "קשר ימני"
+		},
+		{
+			"value": "LW",
+			"label": "קיצוני שמאלי"
+		},
+		{
+			"value": "RW",
+			"label": "קיצוני ימני"
+		},
+		{
+			"value": "CF",
+			"label": "חלוץ מרכזי"
+		},
+		{
+			"value": "ST",
+			"label": "חלוץ"
+		}
+	],
+	"notes": "",
+	"tags": [],
+	"link": "https://vimeo.com/1044574640?share=copy",
+	"data": null
+},
+{
+	"_id": {
+		"$oid": "67b5ba12236a624bb7fbb85b"
+	},
+	"case": "השיטה של דה בריינה לשחרר לחץ לפני משחק",
+	"response": "https://vimeo.com/1044574586?share=copy",
+	"responseState": "inTime",
+	"positions": [
+		{
+			"value": "GK",
+			"label": "שוער"
+		},
+		{
+			"value": "CB",
+			"label": "בלם"
+		},
+		{
+			"value": "LB",
+			"label": "מגן שמאלי"
+		},
+		{
+			"value": "RB",
+			"label": "מגן ימני"
+		},
+		{
+			"value": "LWB",
+			"label": "מגן שמאלי תוקף"
+		},
+		{
+			"value": "RWB",
+			"label": "מגן ימני תוקף"
+		},
+		{
+			"value": "CDM",
+			"label": "קשר אחורי"
+		},
+		{
+			"value": "CM",
+			"label": "קשר מרכזי"
+		},
+		{
+			"value": "CAM",
+			"label": "קשר התקפי"
+		},
+		{
+			"value": "LM",
+			"label": "קשר שמאלי"
+		},
+		{
+			"value": "RM",
+			"label": "קשר ימני"
+		},
+		{
+			"value": "LW",
+			"label": "קיצוני שמאלי"
+		},
+		{
+			"value": "RW",
+			"label": "קיצוני ימני"
+		},
+		{
+			"value": "CF",
+			"label": "חלוץ מרכזי"
+		},
+		{
+			"value": "ST",
+			"label": "חלוץ"
+		}
+	],
+	"notes": "",
+	"tags": [],
+	"link": "https://vimeo.com/1044574586?share=copy",
+	"data": null
+},
+{
+	"_id": {
+		"$oid": "67b5ba12236a624bb7fbb85c"
+	},
+	"case": "פוחד לעשות טעויות במשחק? תעשה את זה",
+	"response": "https://vimeo.com/1044574553?share=copy",
+	"responseState": "inTime",
+	"positions": [
+		{
+			"value": "GK",
+			"label": "שוער"
+		},
+		{
+			"value": "CB",
+			"label": "בלם"
+		},
+		{
+			"value": "LB",
+			"label": "מגן שמאלי"
+		},
+		{
+			"value": "RB",
+			"label": "מגן ימני"
+		},
+		{
+			"value": "LWB",
+			"label": "מגן שמאלי תוקף"
+		},
+		{
+			"value": "RWB",
+			"label": "מגן ימני תוקף"
+		},
+		{
+			"value": "CDM",
+			"label": "קשר אחורי"
+		},
+		{
+			"value": "CM",
+			"label": "קשר מרכזי"
+		},
+		{
+			"value": "CAM",
+			"label": "קשר התקפי"
+		},
+		{
+			"value": "LM",
+			"label": "קשר שמאלי"
+		},
+		{
+			"value": "RM",
+			"label": "קשר ימני"
+		},
+		{
+			"value": "LW",
+			"label": "קיצוני שמאלי"
+		},
+		{
+			"value": "RW",
+			"label": "קיצוני ימני"
+		},
+		{
+			"value": "CF",
+			"label": "חלוץ מרכזי"
+		},
+		{
+			"value": "ST",
+			"label": "חלוץ"
+		}
+	],
+	"notes": "",
+	"tags": [],
+	"link": "https://vimeo.com/1044574553?share=copy",
+	"data": null
+},
+{
+	"_id": {
+		"$oid": "67b5bae393a3803a00716596"
+	},
+	"case": "איך לנתח משחק אחרי הפסד (בלי להרגיש לוזר)",
+	"response": "https://vimeo.com/1044574847?share=copy",
+	"responseState": "after",
+	"positions": [
+		{
+			"value": "GK",
+			"label": "שוער"
+		}
+	],
+	"tags": [],
+	"link": "https://vimeo.com/1044574847?share=copy",
+	"sent": false,
+	"createdAt": {
+		"$date": "2025-02-19T11:05:07.497Z"
+	},
+	"__v": 0,
+	"data": null,
+	"notes": "הערות"
+}]
+

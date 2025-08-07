@@ -1,0 +1,17 @@
+extends baseEmail
+
+block content
+  p  #{firstName} שלום ,
+  p ברוכים הבאים ספא'ץ 🎉🙏
+  p ! שמחים מאוד שהצטרפתם אלינו, נשמח לתת את השירות הטוב ביותר
+  table.btn.btn-primary(role='presentation', border='0', cellpadding='0', cellspacing='0')
+    tbody
+      tr
+        td(align='right')
+          table(role='presentation', border='0', cellpadding='0', cellspacing='0')
+            tbody
+              tr
+                td
+                  a(href=`${url}`, target='_blank') כניסה מערכת
+  p אם נתקלתם בבעיה ניתן לפנות אלינו באימייל !
+  p - חברת ספאץ

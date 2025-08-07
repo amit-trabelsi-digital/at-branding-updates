@@ -1,0 +1,58 @@
+[
+  {
+    "_id": "6863d54a020e131bf1185577",
+    "trainingProgramId": "6863d549020e131bf1185575",
+    "lessonNumber": 0,
+    "title": "שריקת פתיחה – איך להוציא את המקסימום מהתכנית ומהפוטנציאל שלך!",
+    "shortTitle": "אימון 0",
+    "description": "הכרות עם התוכנית ואיך להשתמש בה בצורה המיטבית להשגת תוצאות",
+    "duration": 15,
+    "order": 1,
+    "content": {
+      "primaryContent": "אלופים יקרים, את כל חוברת העבודה המנטלית הכנסנו לכם לאפליקציה כאן בתרגול דיגיטלי כדי שיהיה לכם יותר נוח, כל החומרים, התריגילים והמשימות המנטליות שיש בחוברת עליה איתן מדבר בכל אימון מחכים לכם מתחת לכל וידאו, וכל אימון ישמר לכם ולא יאבד כך שההצלחה שלכם תמיד אתכם",
+      "additionalContent": "אני רוצה לומר שזה יתרון שאין לכם חוברת פיסית, כי חוברת יכולה להעלם, להאבד, להיגמר, לעומת האפליקציה שהיא אתכם כל הזמן, מי שבכל זאת רוצה להזמין אליו את החוברת היתה יכול לעשות זאת בהזמנה מכאן",
+      "structure": "מבוא טקסטואלי",
+      "notes": "שיעור מבוא חשוב המסביר איך להשתמש בתוכנית בצורה אפקטיבית",
+      "type": "text",
+      "data": {
+        "documents": [
+          {
+            "title": "מדריך שימוש בתוכנית",
+            "type": "pdf",
+            "url": "https://storage.googleapis.com/mental-training/documents/usage_guide.pdf"
+          }
+        ]
+      }
+    },
+    "media": {
+      "audioFiles": [],
+      "documents": []
+    },
+    "accessRules": {
+      "unlockConditions": {
+        "minimumProgressPercentage": 0,
+        "requirePreviousCompletion": false,
+        "minimumProgress": 0
+      },
+      "prerequisites": [],
+      "subscriptionTypes": ["basic", "advanced", "premium"],
+      "specificUsers": []
+    },
+    "contentStatus": {
+      "needsReview": false,
+      "hasContent": true,
+      "isPublished": true,
+      "lastContentUpdate": "2025-01-15T10:00:00.000Z"
+    },
+    "scoring": {
+      "bonusPoints": 5,
+      "scoreableActions": ["lesson_completed", "notes_added"],
+      "points": 10,
+      "passingScore": 80
+    },
+    "createdBy": "67dc0618e3fc076b756177f8",
+    "lastModifiedBy": "67dc0618e3fc076b756177f8",
+    "createdAt": "2025-01-15T10:00:00.000Z",
+    "updatedAt": "2025-01-15T10:00:00.000Z"
+  }
+] 

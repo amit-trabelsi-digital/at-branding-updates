@@ -1,0 +1,20 @@
+[build]
+builder = "dockerfile"
+dockerfilePath = "./Dockerfile.railway"
+
+[deploy]
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 10
+
+[healthcheck]
+path = "/health"
+port = 80
+timeout = 30
+
+[[services]]
+name = "mental-coach-flutter"
+type = "web"
+
+[[services.ports]]
+port = 80
+targetPort = 80

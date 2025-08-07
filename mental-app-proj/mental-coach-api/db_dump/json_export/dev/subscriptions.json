@@ -1,0 +1,85 @@
+[{
+	"_id": {
+		"$oid": "67f38c77218e7b5eb7f1ed82"
+	},
+	"userId": {
+		"$oid": "67ee5259b202063f49fadc75"
+	},
+	"productId": "premium_subscription",
+	"transactionId": "1744014451270",
+	"status": "active",
+	"subscriptionType": "premium",
+	"verificationData": "pjeiaebcajcmlebfijcnmoia.AO-J1Oy3tzyg3INm6GElPI2xZmKWZw14zIeBDtroiBPLX-gNZ09oXXf-fBQqwqi_VFqlQSVyw64eiu1YIJ6-HKcJdxyc5XKaeQ",
+	"source": "google_play",
+	"createdAt": {
+		"$date": "2025-04-07T08:27:35.199Z"
+	},
+	"updatedAt": {
+		"$date": "2025-04-07T08:27:35.199Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6804c068bbd7f22eeda1d31c"
+	},
+	"userId": {
+		"$oid": "67ee5259b202063f49fadc75"
+	},
+	"productId": "basic_subscription",
+	"transactionId": "1745141847397",
+	"status": "active",
+	"subscriptionType": "basic",
+	"verificationData": "hfjaieomhphnglbepaaelhhe.AO-J1OwAadTafCNwYlS2irLfqh3BdMrmcg-k2HRA_PNcwd4WeQFMrzLLn7wSpKrBXMboZ_fYBWp7ijEhjjQtb4MfdIDtrGqHpw",
+	"source": "google_play",
+	"createdAt": {
+		"$date": "2025-04-20T09:37:44.117Z"
+	},
+	"updatedAt": {
+		"$date": "2025-04-20T09:37:44.117Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6804c2c8bbd7f22eeda1d342"
+	},
+	"userId": {
+		"$oid": "67ee5259b202063f49fadc75"
+	},
+	"productId": "premium_subscription",
+	"transactionId": "1745142465114",
+	"status": "active",
+	"subscriptionType": "premium",
+	"verificationData": "kpbnapaaakfpoaooninldgbp.AO-J1Oz3-SaDtk9MRn-Ob354ESFTgPGY4IOvNc6pL4NALlKT-LM7-CtjXTa3H86DhwXs1yPQtba5G76tFmzigN5z3ShorXlWtg",
+	"source": "google_play",
+	"createdAt": {
+		"$date": "2025-04-20T09:47:52.481Z"
+	},
+	"updatedAt": {
+		"$date": "2025-04-20T09:47:52.481Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6804c2c8bbd7f22eeda1d344"
+	},
+	"userId": {
+		"$oid": "67ee5259b202063f49fadc75"
+	},
+	"productId": "premium_subscription",
+	"transactionId": "1745142465114",
+	"status": "active",
+	"subscriptionType": "premium",
+	"verificationData": "kpbnapaaakfpoaooninldgbp.AO-J1Oz3-SaDtk9MRn-Ob354ESFTgPGY4IOvNc6pL4NALlKT-LM7-CtjXTa3H86DhwXs1yPQtba5G76tFmzigN5z3ShorXlWtg",
+	"source": "google_play",
+	"createdAt": {
+		"$date": "2025-04-20T09:47:52.502Z"
+	},
+	"updatedAt": {
+		"$date": "2025-04-20T09:47:52.502Z"
+	},
+	"__v": 0
+}]
+
