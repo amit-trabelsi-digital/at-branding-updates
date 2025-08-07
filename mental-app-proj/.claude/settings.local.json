@@ -18,8 +18,19 @@
       "Bash(cp:*)",
       "Bash(xcrun simctl list:*)",
       "Bash(flutter:*)",
-      "Bash(railway login:*)"
+      "Bash(railway login:*)",
+      "Bash(chmod:*)",
+      "Bash(npm run version:patch:*)",
+      "Bash(./scripts/version-demo.sh:*)",
+      "Bash(mv:*)",
+      "Bash(mkdir:*)",
+      "Bash(true)",
+      "Bash(rmdir:*)",
+      "Bash(rm:*)",
+      "Bash(git submodule:*)",
+      "Bash(git check-ignore:*)"
     ],
     "deny": []
-  }
+  },
+  "disableAllHooks": true
 }

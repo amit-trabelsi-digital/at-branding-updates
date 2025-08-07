@@ -83,39 +83,39 @@
 ### התקנה אוטומטית
 ```bash
 # הרצת כל המערכות יחד
-./scripts/run-all.sh
+./scripts/development/run-all.sh
 
 # הרצה עם סימולטור iOS
-./scripts/run-simulator.sh
+./scripts/development/run-simulator.sh
 
 # התקנה מהירה מאפס
-./scripts/quick-start.sh
+./scripts/development/quick-start.sh
 ```
 
 ## 🛠️ סקריפטי ניהול
 
-### `/scripts/quick-start.sh`
+### `/scripts/development/quick-start.sh`
 **מטרה:** התקנה אוטומטית מלאה של כל המערכות
 - מתקין תלויות לכל שלושת הפרויקטים
 - יוצר קובצי .env מ-examples
 - מריץ את כל השירותים במקביל
 - **תלות:** Node.js, Flutter, npm/yarn
 
-### `/scripts/run-all.sh`
+### `/scripts/development/run-all.sh`
 **מטרה:** הרצת כל המערכות במקביל למפתחים
 - מריץ API server על פורט 3000
 - מריץ Admin panel על פורט 5173
 - מריץ Flutter web על פורט 3001
 - **תלות:** פרויקטים מותקנים, קובצי .env מוגדרים
 
-### `/scripts/run-simulator.sh`
+### `/scripts/development/run-simulator.sh`
 **מטרה:** הרצה מהירה עם סימולטור iOS לפיתוח
 - בודק זמינות iOS Simulator
 - מריץ את כל השירותים
 - פותח את האפליקציה בסימולטור
 - **תלות:** Xcode, iOS Simulator, macOS
 
-### `/scripts/get-local-ip.sh`
+### `/scripts/utilities/get-local-ip.sh`
 **מטרה:** קבלת כתובת IP מקומית לבדיקות רשת
 - מוצא את כתובת ה-IP המקומית
 - שימושי לבדיקת האפליקציה במכשירים פיזיים
@@ -123,7 +123,7 @@
 
 ## 📚 קבצי הנחיות ותיעוד
 
-### `/docs/PROJECT_OVERVIEW.md`
+### `/docs/project/PROJECT_OVERVIEW.md`
 **מטרה:** תיעוד מפורט של כל המערכת
 - ארכיטקטורה מלאה של המערכת
 - תיאור מודלי נתונים
@@ -131,28 +131,28 @@
 - הוראות התקנה מפורטות
 - **תלות:** עדכון תמידי כשהמערכת משתנה
 
-### `/docs/PROJECT_MEMORY.md`
+### `/docs/project/PROJECT_MEMORY.md`
 **מטרה:** זיכרון פרויקט לסוכני AI ומפתחים חדשים
 - החלטות ארכיטקטוניות חשובות
 - שינויים משמעותיים שבוצעו
 - בעיות שנפתרו ופתרונות
 - **תלות:** עדכון אחרי כל שינוי גדול
 
-### `/docs/OTP_SMS_IMPLEMENTATION.md`
+### `/docs/features/OTP_SMS_IMPLEMENTATION.md`
 **מטרה:** תיעוד מימוש מערכת אימות SMS/OTP
 - התקנה והגדרה של Twilio
 - זרימת אימות עם OTP
 - טיפול בשגיאות SMS
 - **תלות:** חשבון Twilio פעיל, מפתחות API
 
-### `/docs/USER_AUTH_CHANGES_2025_01.md`
+### `/docs/features/USER_AUTH_CHANGES_2025_01.md`
 **מטרה:** תיעוד שינויים במערכת האימות
 - שינויים שבוצעו ב-2025
 - מעבר בין שיטות אימות
 - בעיות תאימות ופתרונות
 - **תלות:** Firebase Authentication, מפתחות API
 
-### `/docs/SCRIPTS_README.md`
+### `/docs/guides/SCRIPTS_README.md`
 **מטרה:** הסבר מפורט על כל הסקריפטים
 - תיאור כל סקריפט ותפקידו
 - פרמטרים ואפשרויות

@@ -1,0 +1,11 @@
+  main
+  pre-qa-v1
+  sms-conn
+  static-deployment
+* temp-pre-cleanup-20250806
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+  remotes/origin/pre-qa-v1
+  remotes/origin/sms-conn
+  remotes/origin/static-deployment
+  remotes/origin/temp-pre-cleanup-20250806

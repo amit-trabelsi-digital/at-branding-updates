@@ -273,6 +273,7 @@ main() {
     print_status "Mental Coach - סקריפט התקנה והרצה"
     
     # בדיקה שאנחנו בתיקייה הנכונה
+    cd "$(dirname "$0")/../.."
     if [ ! -d "mental-coach-api" ] || [ ! -d "mental-coach-admin" ] || [ ! -d "mental-coach-flutter" ]; then
         print_error "הסקריפט חייב לרוץ מתיקיית mental-app-proj שמכילה את כל הפרויקטים"
         exit 1

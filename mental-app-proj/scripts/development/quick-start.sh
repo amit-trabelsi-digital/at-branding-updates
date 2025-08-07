@@ -15,6 +15,7 @@ echo -e "${GREEN}Mental Coach - הרצה מהירה${NC}"
 echo ""
 
 # בדיקה שאנחנו בתיקייה הנכונה
+cd "$(dirname "$0")/../.."
 if [ ! -d "mental-coach-api" ] || [ ! -d "mental-coach-admin" ] || [ ! -d "mental-coach-flutter" ]; then
     echo -e "${RED}[ERROR]${NC} הסקריפט חייב לרוץ מתיקיית mental-app-proj"
     exit 1

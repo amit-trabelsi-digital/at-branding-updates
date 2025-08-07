@@ -1,0 +1,16 @@
+  main
+  pre-qa-v1
+  sms-conn
+  static-deployment
+* temp-pre-cleanup-20250806
+  updates-20250806-152351
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/add-claude-github-actions-1751381195389
+  remotes/origin/add-claude-github-actions-1751381195391
+  remotes/origin/main
+  remotes/origin/pre-qa-v1
+  remotes/origin/react-email-testing
+  remotes/origin/sms-conn
+  remotes/origin/static-deployment
+  remotes/origin/temp-pre-cleanup-20250806
+  remotes/origin/updates-20250806-152351
